@@ -17,7 +17,7 @@ public class var_Editor extends DefaultNodeEditor {
     return this.createCollection_5egatu_a(editorContext, node);
   }
   private EditorCell createCollection_5egatu_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5egatu_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_5egatu_a0(editorContext, node));

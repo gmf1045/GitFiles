@@ -99,7 +99,7 @@
     <property role="EcuMT" value="7713087181228190659" />
     <property role="TrG5h" value="turn" />
     <property role="34LRSv" value="turn" />
-    <property role="R4oN_" value="direction 0=&gt;Right, 1=&gt;Left" />
+    <property role="R4oN_" value="2=S,4=W,8=N,6=E" />
     <ref role="1TJDcQ" node="6GaoYNQMTvN" resolve="command" />
     <node concept="PrWs8" id="6GaoYNQIqJ4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

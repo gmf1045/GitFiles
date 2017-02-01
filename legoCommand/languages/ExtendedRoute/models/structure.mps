@@ -92,7 +92,7 @@
   <node concept="1TIwiD" id="6nwqibR4hNf">
     <property role="EcuMT" value="7340982991508806863" />
     <property role="TrG5h" value="forward_var" />
-    <property role="R4oN_" value="Forward edited version" />
+    <property role="R4oN_" value="Forward extend." />
     <property role="34LRSv" value="forward_extended" />
     <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
     <node concept="1TJgyj" id="6nwqibR4uN6" role="1TKVEi">

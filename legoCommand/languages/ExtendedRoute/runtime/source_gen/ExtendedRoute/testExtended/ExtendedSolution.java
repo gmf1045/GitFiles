@@ -31,9 +31,9 @@ public class ExtendedSolution extends JFrame {
       turn(4);
       currPoint = moveForward(graphics, currPoint, 100);
       turn(8);
-      currPoint = moveForward(graphics, currPoint, 230);
+      currPoint = moveForward(graphics, currPoint, 20);
       turn(6);
-      currPoint = moveForward(graphics, currPoint, 300);
+      currPoint = moveForward(graphics, currPoint, 20);
     }
   };
 
