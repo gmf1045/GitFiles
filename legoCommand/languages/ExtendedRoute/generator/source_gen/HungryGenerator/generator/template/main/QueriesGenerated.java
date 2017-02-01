@@ -15,7 +15,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 @Generated
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7340982991508991124(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_var")), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, 0x65e06922f711ecc6L, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_extended")), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, 0x65e06922f711ecc6L, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
   }
   public static Object propertyMacro_GetPropertyValue_7713087181229635824(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, 0x41644b4f1c2320d2L, "distance"));
@@ -30,7 +30,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static boolean ifMacro_Condition_7340982991508991133(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_var"));
+    return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_extended"));
   }
   public static boolean ifMacro_Condition_7713087181229706974(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward"));

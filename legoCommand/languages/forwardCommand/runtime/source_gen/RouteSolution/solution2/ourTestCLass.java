@@ -28,7 +28,7 @@ public class ourTestCLass extends JFrame {
       turn(6);
       turn(2);
       currPoint = moveForward(graphics, currPoint, 150);
-      turn(8);
+      turn(4);
       currPoint = moveForward(graphics, currPoint, 200);
     }
   };

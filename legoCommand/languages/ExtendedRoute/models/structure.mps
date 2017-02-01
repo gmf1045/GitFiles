@@ -49,11 +49,11 @@
   </registry>
   <node concept="1TIwiD" id="45$iOWsdfdZ">
     <property role="EcuMT" value="4711973913284113279" />
-    <property role="TrG5h" value="var" />
+    <property role="TrG5h" value="variable" />
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="R4oN_" value="Variable Name and its Value " />
-    <property role="34LRSv" value="Var" />
+    <property role="34LRSv" value="Variable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="45$iOWsdfnG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -80,7 +80,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="our_var" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="45$iOWsdfdZ" resolve="var" />
+      <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
     </node>
     <node concept="PrWs8" id="6nwqibR3RuS" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -91,19 +91,17 @@
   </node>
   <node concept="1TIwiD" id="6nwqibR4hNf">
     <property role="EcuMT" value="7340982991508806863" />
-    <property role="TrG5h" value="forward_var" />
+    <property role="TrG5h" value="forward_extended" />
     <property role="R4oN_" value="Forward extend." />
     <property role="34LRSv" value="forward_extended" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
     <node concept="1TJgyj" id="6nwqibR4uN6" role="1TKVEi">
       <property role="IQ2ns" value="7340982991508860102" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="distance" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="45$iOWsdfdZ" resolve="var" />
-    </node>
-    <node concept="PrWs8" id="6nwqibR5NCP" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
     </node>
   </node>
 </model>

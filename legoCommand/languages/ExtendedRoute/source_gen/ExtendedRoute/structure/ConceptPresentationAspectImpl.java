@@ -10,8 +10,8 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private final ConceptPresentation props_extendedCanvas = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_forward_var = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_var = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_forward_extended = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_variable = new ConceptPresentationBuilder().create();
 
   @Override
   @Nullable
@@ -21,9 +21,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case 0:
         return props_extendedCanvas;
       case 1:
-        return props_forward_var;
+        return props_forward_extended;
       case 2:
-        return props_var;
+        return props_variable;
     }
     throw new IllegalStateException("Unknown concept " + c);
   }

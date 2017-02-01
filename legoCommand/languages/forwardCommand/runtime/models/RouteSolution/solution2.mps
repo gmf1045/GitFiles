@@ -42,7 +42,7 @@
       <property role="1thQIt" value="150" />
     </node>
     <node concept="2tGWwJ" id="6nwqibR4QmM" role="2tKvIK">
-      <property role="2tGWwY" value="8" />
+      <property role="2tGWwY" value="4" />
     </node>
     <node concept="2tGWtp" id="5qmfmU$u2v4" role="2tKvIK">
       <property role="1thQIt" value="200" />

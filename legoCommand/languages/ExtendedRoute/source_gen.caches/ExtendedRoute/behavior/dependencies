@@ -14,11 +14,11 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
-  <dependency className="ExtendedRoute.behavior.forward_var_BehaviorDescriptor" file="forward_var_BehaviorDescriptor.java">
+  <dependency className="ExtendedRoute.behavior.forward_extended_BehaviorDescriptor" file="forward_extended_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
-  <dependency className="ExtendedRoute.behavior.var_BehaviorDescriptor" file="var_BehaviorDescriptor.java">
+  <dependency className="ExtendedRoute.behavior.variable_BehaviorDescriptor" file="variable_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>

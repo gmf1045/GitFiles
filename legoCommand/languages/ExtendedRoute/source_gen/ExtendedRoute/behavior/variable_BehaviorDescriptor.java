@@ -9,7 +9,7 @@ package ExtendedRoute.behavior;
  * This class is not involved in the actual method invocation
  */
 @Deprecated
-public class forward_var_BehaviorDescriptor {
+public class variable_BehaviorDescriptor {
   public String getConceptFqName() {
     return null;
   }

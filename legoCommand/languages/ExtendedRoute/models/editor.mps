@@ -89,7 +89,7 @@
       </node>
       <node concept="3F2HdR" id="6nwqibR5AJ5" role="3EZMnx">
         <ref role="1NtTu8" to="tnak:45$iOWsfmoz" resolve="our_var" />
-        <node concept="2iRfu4" id="6nwqibR5AJ7" role="2czzBx" />
+        <node concept="2iRkQZ" id="5qmfmU$wuea" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="45$iOWseXnk" role="3EZMnx" />
       <node concept="3F0ifn" id="45$iOWsdoHC" role="3EZMnx">
@@ -107,26 +107,26 @@
   </node>
   <node concept="24kQdi" id="45$iOWseW2k">
     <ref role="1XX52x" to="tnak:45$iOWsdfdZ" resolve="var" />
-    <node concept="3EZMnI" id="5qmfmU$uJiZ" role="2wV5jI">
-      <node concept="2iRkQZ" id="5qmfmU$uJki" role="2iSdaV" />
-      <node concept="3EZMnI" id="5qmfmU$uPKN" role="3EZMnx">
-        <node concept="2iRkQZ" id="5qmfmU$uPKO" role="2iSdaV" />
-        <node concept="3EZMnI" id="5qmfmU$tpGX" role="3EZMnx">
-          <node concept="2iRfu4" id="5qmfmU$uCST" role="2iSdaV" />
-          <node concept="3F0ifn" id="6nwqibR6U$x" role="3EZMnx">
+    <node concept="3EZMnI" id="5qmfmU$vQLT" role="2wV5jI">
+      <node concept="2iRkQZ" id="5qmfmU$woH2" role="2iSdaV" />
+      <node concept="3EZMnI" id="5qmfmU$wp_X" role="3EZMnx">
+        <node concept="2iRfu4" id="5qmfmU$wrmx" role="2iSdaV" />
+        <node concept="3EZMnI" id="5qmfmU$woHY" role="3EZMnx">
+          <node concept="2iRfu4" id="5qmfmU$woHZ" role="2iSdaV" />
+          <node concept="3F0ifn" id="5qmfmU$wnQp" role="3EZMnx">
             <property role="3F0ifm" value="Name:" />
           </node>
-          <node concept="3F0A7n" id="5qmfmU$uj$N" role="3EZMnx">
+          <node concept="3F0A7n" id="5qmfmU$woJk" role="3EZMnx">
             <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
           </node>
-          <node concept="3F0ifn" id="5qmfmU$uj_l" role="3EZMnx">
+        </node>
+        <node concept="3EZMnI" id="5qmfmU$wqsH" role="3EZMnx">
+          <node concept="2iRfu4" id="5qmfmU$wqsI" role="2iSdaV" />
+          <node concept="3F0ifn" id="5qmfmU$wqsd" role="3EZMnx">
             <property role="3F0ifm" value="Value:" />
           </node>
-          <node concept="3F0A7n" id="5qmfmU$ujA2" role="3EZMnx">
+          <node concept="3F0A7n" id="5qmfmU$wqtI" role="3EZMnx">
             <ref role="1NtTu8" to="tnak:45$iOWsfmlE" resolve="Var_value" />
-          </node>
-          <node concept="3F0ifn" id="5qmfmU$ujD5" role="3EZMnx">
-            <property role="3F0ifm" value=";" />
           </node>
         </node>
       </node>
