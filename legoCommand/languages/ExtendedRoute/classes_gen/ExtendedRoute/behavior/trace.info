@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="ExtendedRoute.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="extendedCanvas_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.extendedCanvas_BehaviorDescriptor" />
+    </file>
+    <file name="forward_var_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_var_BehaviorDescriptor" />
+    </file>
+    <file name="var_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.var_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

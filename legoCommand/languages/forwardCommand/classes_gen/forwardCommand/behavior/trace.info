@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="forwardCommand.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="command_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="forwardCommand.behavior.command_BehaviorDescriptor" />
+    </file>
+    <file name="forward_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="forwardCommand.behavior.forward_BehaviorDescriptor" />
+    </file>
+    <file name="ourcanvas_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="forwardCommand.behavior.ourcanvas_BehaviorDescriptor" />
+    </file>
+    <file name="turn_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="forwardCommand.behavior.turn_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

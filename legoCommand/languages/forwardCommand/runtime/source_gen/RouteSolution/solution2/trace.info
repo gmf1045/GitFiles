@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:84ad1ec8-1786-4e76-8ed2-05b8191c6e74(RouteSolution.solution2)/7713087181229422606">
+    <file name="ourTestCLass.java">
+      <node id="7713087181229422606" at="17,0,18,0" concept="2" trace="_currentDirection" />
+      <node id="7713087181229422606" at="18,0,19,0" concept="2" trace="_color" />
+      <node id="7713087181229422606" at="22,54,23,37" concept="1" />
+      <node id="7713087181229422606" at="23,37,24,44" concept="5" />
+      <node id="7713087181229422606" at="24,44,25,28" concept="1" />
+      <node id="7713087181229422606" at="25,28,26,0" concept="8" />
+      <node id="7713087181229422606" at="26,0,27,56" concept="1" />
+      <node id="7713087181229422606" at="27,56,28,14" concept="1" />
+      <node id="7713087181229422606" at="28,14,29,56" concept="1" />
+      <node id="7713087181229422606" at="29,56,30,14" concept="1" />
+      <node id="7713087181229422606" at="34,29,35,34" concept="1" />
+      <node id="7713087181229422606" at="35,34,36,52" concept="1" />
+      <node id="7713087181229422606" at="36,52,37,24" concept="1" />
+      <node id="7713087181229422606" at="37,24,38,58" concept="1" />
+      <node id="7713087181229422606" at="38,58,39,16" concept="1" />
+      <node id="7713087181229422606" at="39,16,40,26" concept="1" />
+      <node id="7713087181229422606" at="43,42,44,46" concept="5" />
+      <node id="7713087181229422606" at="44,46,45,25" concept="1" />
+      <node id="7713087181229422606" at="48,76,49,0" concept="8" />
+      <node id="7713087181229422606" at="49,0,50,37" concept="5" />
+      <node id="7713087181229422606" at="51,33,52,15" concept="7" />
+      <node id="7713087181229422606" at="52,15,53,37" concept="1" />
+      <node id="7713087181229422606" at="53,37,54,58" concept="1" />
+      <node id="7713087181229422606" at="54,58,55,25" concept="1" />
+      <node id="7713087181229422606" at="56,40,57,15" concept="7" />
+      <node id="7713087181229422606" at="57,15,58,39" concept="1" />
+      <node id="7713087181229422606" at="58,39,59,48" concept="1" />
+      <node id="7713087181229422606" at="59,48,60,27" concept="1" />
+      <node id="7713087181229422606" at="61,40,62,14" concept="7" />
+      <node id="7713087181229422606" at="62,14,63,50" concept="1" />
+      <node id="7713087181229422606" at="63,50,64,37" concept="1" />
+      <node id="7713087181229422606" at="64,37,65,26" concept="1" />
+      <node id="7713087181229422606" at="66,12,67,14" concept="7" />
+      <node id="7713087181229422606" at="67,14,68,50" concept="1" />
+      <node id="7713087181229422606" at="68,50,69,37" concept="1" />
+      <node id="7713087181229422606" at="69,37,70,27" concept="1" />
+      <node id="7713087181229422606" at="71,5,72,0" concept="8" />
+      <node id="7713087181229422606" at="72,0,73,38" concept="1" />
+      <node id="7713087181229422606" at="73,38,74,27" concept="6" />
+      <node id="7713087181229422606" at="77,38,78,33" concept="1" />
+      <node id="7713087181229422606" at="78,33,79,0" concept="8" />
+      <node id="7713087181229422606" at="82,67,83,26" concept="1" />
+      <node id="7713087181229422606" at="83,26,84,94" concept="1" />
+      <node id="7713087181229422606" at="43,0,47,0" concept="9" trace="main#([Ljava/lang/String;)V" />
+      <node id="7713087181229422606" at="77,0,81,0" concept="4" trace="turn#(Ljava/lang/Integer;)V" />
+      <node id="7713087181229422606" at="82,0,86,0" concept="4" trace="justDrawLine#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/awt/Point;)V" />
+      <node id="7713087181229422606" at="66,10,71,5" concept="0" />
+      <node id="7713087181229422606" at="34,0,42,0" concept="4" trace="initialize#()V" />
+      <node id="7713087181229422606" at="21,0,32,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="7713087181229422606" at="20,0,33,0" concept="2" trace="testpanel" />
+      <node id="7713087181229422606" at="50,37,71,5" concept="3" />
+      <node id="7713087181229422606" at="48,0,76,0" concept="4" trace="moveForward#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/lang/Integer;)Ljava/awt/Point;" />
+      <scope id="7713087181229422606" at="43,42,45,25">
+        <var name="_canvas" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="77,38,79,0" />
+      <scope id="7713087181229422606" at="82,67,84,94" />
+      <scope id="7713087181229422606" at="43,0,47,0">
+        <var name="args" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="51,33,55,25" />
+      <scope id="7713087181229422606" at="56,40,60,27" />
+      <scope id="7713087181229422606" at="61,40,65,26" />
+      <scope id="7713087181229422606" at="66,12,70,27" />
+      <scope id="7713087181229422606" at="77,0,81,0">
+        <var name="turnType" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="82,0,86,0">
+        <var name="end" id="7713087181229422606" />
+        <var name="grp2" id="7713087181229422606" />
+        <var name="start" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="34,29,40,26" />
+      <scope id="7713087181229422606" at="22,54,30,14">
+        <var name="currPoint" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="34,0,42,0" />
+      <scope id="7713087181229422606" at="21,0,32,0">
+        <var name="graphics" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="48,76,74,27">
+        <var name="_end" id="7713087181229422606" />
+      </scope>
+      <scope id="7713087181229422606" at="48,0,76,0">
+        <var name="curPoint" id="7713087181229422606" />
+        <var name="distance" id="7713087181229422606" />
+        <var name="grp" id="7713087181229422606" />
+      </scope>
+      <unit id="7713087181229422606" at="20,33,32,3" name="RouteSolution.solution2.ourTestCLass$1" />
+      <unit id="7713087181229422606" at="15,0,87,0" name="RouteSolution.solution2.ourTestCLass" />
+    </file>
+  </root>
+</debug-info>
+
