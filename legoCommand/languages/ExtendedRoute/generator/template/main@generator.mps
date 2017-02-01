@@ -315,10 +315,10 @@
                       <node concept="1pGfFk" id="6GaoYNQNwrf" role="2ShVmc">
                         <ref role="37wK5l" to="z60i:~Point.&lt;init&gt;(int,int)" resolve="Point" />
                         <node concept="3cmrfG" id="6GaoYNQNyuX" role="37wK5m">
-                          <property role="3cmrfH" value="500" />
+                          <property role="3cmrfH" value="300" />
                         </node>
                         <node concept="3cmrfG" id="6GaoYNQNzE8" role="37wK5m">
-                          <property role="3cmrfH" value="500" />
+                          <property role="3cmrfH" value="300" />
                         </node>
                       </node>
                     </node>
@@ -585,10 +585,10 @@
                 <node concept="1pGfFk" id="57sEyAnlSbi" role="2ShVmc">
                   <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
                   <node concept="3cmrfG" id="57sEyAnlSeU" role="37wK5m">
-                    <property role="3cmrfH" value="1000" />
+                    <property role="3cmrfH" value="600" />
                   </node>
                   <node concept="3cmrfG" id="57sEyAnlTqU" role="37wK5m">
-                    <property role="3cmrfH" value="1000" />
+                    <property role="3cmrfH" value="600" />
                   </node>
                 </node>
               </node>

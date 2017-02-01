@@ -326,7 +326,7 @@
                       <node concept="1pGfFk" id="6GaoYNQNwrf" role="2ShVmc">
                         <ref role="37wK5l" to="z60i:~Point.&lt;init&gt;(int,int)" resolve="Point" />
                         <node concept="3cmrfG" id="6GaoYNQNyuX" role="37wK5m">
-                          <property role="3cmrfH" value="500" />
+                          <property role="3cmrfH" value="300" />
                           <node concept="17Uvod" id="6nwqibR2wUj" role="lGtFl">
                             <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                             <property role="2qtEX9" value="value" />
@@ -349,7 +349,7 @@
                           </node>
                         </node>
                         <node concept="3cmrfG" id="6GaoYNQNzE8" role="37wK5m">
-                          <property role="3cmrfH" value="500" />
+                          <property role="3cmrfH" value="300" />
                           <node concept="17Uvod" id="6nwqibR2J5Y" role="lGtFl">
                             <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                             <property role="2qtEX9" value="value" />
@@ -576,10 +576,10 @@
                 <node concept="1pGfFk" id="57sEyAnlSbi" role="2ShVmc">
                   <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
                   <node concept="3cmrfG" id="57sEyAnlSeU" role="37wK5m">
-                    <property role="3cmrfH" value="1000" />
+                    <property role="3cmrfH" value="600" />
                   </node>
                   <node concept="3cmrfG" id="57sEyAnlTqU" role="37wK5m">
-                    <property role="3cmrfH" value="1000" />
+                    <property role="3cmrfH" value="600" />
                   </node>
                 </node>
               </node>

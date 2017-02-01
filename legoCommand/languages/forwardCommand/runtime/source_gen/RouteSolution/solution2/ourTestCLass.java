@@ -35,7 +35,7 @@ public class ourTestCLass extends JFrame {
     this.setTitle("ourTestCLass");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(1000, 1000));
+    testpanel.setPreferredSize(new Dimension(600, 600));
     this.pack();
     this.setVisible(true);
   }

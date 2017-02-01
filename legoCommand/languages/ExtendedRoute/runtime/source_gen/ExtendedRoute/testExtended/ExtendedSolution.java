@@ -18,7 +18,7 @@ public class ExtendedSolution extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(500, 500);
+      Point currPoint = new Point(300, 300);
       _currentDirection = 6;
 
       currPoint = moveForward(graphics, currPoint, 200);
@@ -27,11 +27,12 @@ public class ExtendedSolution extends JFrame {
       turn(4);
       currPoint = moveForward(graphics, currPoint, 150);
       turn(2);
-      currPoint = moveForward(graphics, currPoint, 250);
+      currPoint = moveForward(graphics, currPoint, 50);
       turn(4);
-      currPoint = moveForward(graphics, currPoint, 500);
+      currPoint = moveForward(graphics, currPoint, 100);
       turn(8);
-      currPoint = moveForward(graphics, currPoint, 600);
+      currPoint = moveForward(graphics, currPoint, 400);
+      currPoint = moveForward(graphics, currPoint, 0);
     }
   };
 
@@ -39,7 +40,7 @@ public class ExtendedSolution extends JFrame {
     this.setTitle("ExtendedSolution");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(1000, 1000));
+    testpanel.setPreferredSize(new Dimension(600, 600));
     this.pack();
     this.setVisible(true);
   }
