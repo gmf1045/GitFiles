@@ -27,19 +27,25 @@
   </registry>
   <node concept="2tGWx0" id="6GaoYNQN7we">
     <property role="TrG5h" value="ourTestCLass" />
-    <property role="2iUJHM" value="500" />
-    <property role="2iUJH5" value="500" />
+    <property role="2iUJHM" value="300" />
+    <property role="2iUJH5" value="300" />
     <node concept="2tGWtp" id="6nwqibR4QeC" role="2tKvIK">
-      <property role="1thQIt" value="200" />
+      <property role="1thQIt" value="100" />
     </node>
     <node concept="2tGWwJ" id="6nwqibR4Qf6" role="2tKvIK">
       <property role="2tGWwY" value="6" />
+    </node>
+    <node concept="2tGWwJ" id="5qmfmU$u4Yx" role="2tKvIK">
+      <property role="2tGWwY" value="2" />
     </node>
     <node concept="2tGWtp" id="6nwqibR4Qfx" role="2tKvIK">
       <property role="1thQIt" value="150" />
     </node>
     <node concept="2tGWwJ" id="6nwqibR4QmM" role="2tKvIK">
       <property role="2tGWwY" value="8" />
+    </node>
+    <node concept="2tGWtp" id="5qmfmU$u2v4" role="2tKvIK">
+      <property role="1thQIt" value="200" />
     </node>
   </node>
 </model>
