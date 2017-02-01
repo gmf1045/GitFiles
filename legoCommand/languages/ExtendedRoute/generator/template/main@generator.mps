@@ -358,7 +358,7 @@
                                     <node concept="2OqwBi" id="5qmfmU$t0Li" role="3clFbG">
                                       <node concept="2OqwBi" id="6nwqibR5dCG" role="2Oq$k0">
                                         <node concept="1PxgMI" id="6nwqibR5ce2" role="2Oq$k0">
-                                          <ref role="1m5ApE" to="tnak:6nwqibR4hNf" resolve="forward_var" />
+                                          <ref role="1m5ApE" to="tnak:6nwqibR4hNf" resolve="forward_extended" />
                                           <node concept="30H73N" id="6nwqibR59Q1" role="1m5AlR" />
                                         </node>
                                         <node concept="3TrEf2" id="6nwqibR5ecD" role="2OqNvi">
@@ -387,7 +387,7 @@
                                 <node concept="30H73N" id="6nwqibR4YMx" role="2Oq$k0" />
                                 <node concept="1mIQ4w" id="6nwqibR4YMy" role="2OqNvi">
                                   <node concept="chp4Y" id="6nwqibR51wV" role="cj9EA">
-                                    <ref role="cht4Q" to="tnak:6nwqibR4hNf" resolve="forward_var" />
+                                    <ref role="cht4Q" to="tnak:6nwqibR4hNf" resolve="forward_extended" />
                                   </node>
                                 </node>
                               </node>
@@ -1005,7 +1005,7 @@
         <node concept="3clFbH" id="45$iOWs9lwX" role="3cqZAp" />
         <node concept="3clFbF" id="45$iOWs8O4G" role="3cqZAp">
           <node concept="1rXfSq" id="45$iOWs8O4H" role="3clFbG">
-            <ref role="37wK5l" node="6GaoYNQJzcp" resolve="justDrawLine" />
+            <ref role="37wK5l" node="6GaoYNQJzcp" resolve="drawLine" />
             <node concept="37vLTw" id="45$iOWs8O4I" role="37wK5m">
               <ref role="3cqZAo" node="45$iOWs8O4R" resolve="grp" />
             </node>
@@ -1069,7 +1069,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="45$iOWs9O1A" role="3cqZAp" />
       </node>
       <node concept="3Tm1VV" id="6GaoYNQJs4Z" role="1B3o_S" />
       <node concept="3cqZAl" id="45$iOWs9QDx" role="3clF45" />
@@ -1083,7 +1082,7 @@
     <node concept="2tJIrI" id="6GaoYNQNqi0" role="jymVt" />
     <node concept="3clFb_" id="6GaoYNQJzcp" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="justDrawLine" />
+      <property role="TrG5h" value="drawLine" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
