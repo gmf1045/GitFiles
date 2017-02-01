@@ -7,7 +7,6 @@
   <imports />
   <registry>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
-      <concept id="7340982991508806863" name="ExtendedRoute.structure.forward_var" flags="ng" index="2iWnnH" />
       <concept id="4711973913284113279" name="ExtendedRoute.structure.var" flags="ng" index="1tkbwK">
         <property id="4711973913284126681" name="Var_id" index="1tkmMm" />
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
@@ -71,9 +70,6 @@
     </node>
     <node concept="2tGWtp" id="6nwqibR60EF" role="2tKvIK">
       <property role="1thQIt" value="400" />
-    </node>
-    <node concept="2iWnnH" id="4n$hzqnVcfh" role="2tKvIK">
-      <property role="TrG5h" value="var" />
     </node>
   </node>
 </model>

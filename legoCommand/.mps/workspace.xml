@@ -6,7 +6,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e137b1c8-11ac-4ebf-b2d5-ff1ca5478356" name="Default" comment="" />
+    <list default="true" id="e137b1c8-11ac-4ebf-b2d5-ff1ca5478356" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps" afterPath="$PROJECT_DIR$/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps" />
+    </list>
     <ignored path="legoCommand.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,24 +93,20 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="247" />
-                    <property name="caretXRelative" value="20" />
+                    <property name="caretX" value="271" />
+                    <property name="caretXRelative" value="28" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_distance" cellNumber="0" isInList="false">
-                      <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" />
+                    <cellInfo cellId="property_distance" cellNumber="0" isInList="false">
+                      <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
-                <errorMarkers>
-                  <errorMarker text="50" propertyCell="false" cellId="empty_distance" cellNumber="0" isInList="false">
-                    <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" />
-                  </errorMarker>
-                </errorMarkers>
+                <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -193,7 +191,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -227,7 +225,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -261,7 +259,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -335,7 +333,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -369,7 +367,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -403,7 +401,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -747,7 +745,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3748622" sideWeight="0.39345238" order="23" side_tool="false" content_ui="tabs" />
@@ -772,7 +770,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2067239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2067239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
@@ -964,7 +962,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1366,7 +1364,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1654,7 +1652,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1718,7 +1716,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1802,7 +1800,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1875,7 +1873,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1894,24 +1892,20 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="247" />
-                <property name="caretXRelative" value="20" />
+                <property name="caretX" value="271" />
+                <property name="caretXRelative" value="28" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_distance" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" />
+                <cellInfo cellId="property_distance" cellNumber="0" isInList="false">
+                  <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers>
-              <errorMarker text="50" propertyCell="false" cellId="empty_distance" cellNumber="0" isInList="false">
-                <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" />
-              </errorMarker>
-            </errorMarkers>
+            <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/5036227483598111697" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509260971" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
