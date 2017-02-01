@@ -6,7 +6,10 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e137b1c8-11ac-4ebf-b2d5-ff1ca5478356" name="Default" comment="" />
+    <list default="true" id="e137b1c8-11ac-4ebf-b2d5-ff1ca5478356" name="Default" comment="Test from">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps" afterPath="$PROJECT_DIR$/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps" />
+    </list>
     <ignored path="legoCommand.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="3d512721-ac83-4882-be5c-9ab3e8ab8a01/r:789cbb55-fa57-4771-b991-997cf374f499(TempModule3d512721-ac83-4882-be5c-9ab3e8ab8a01/TempModel_5698399561483)">
+            <model ref="ae415466-0e91-4c4e-866a-8139be30a2fa/r:95aa5b70-9743-4656-aaf5-c85dd24ccd8d(TempModuleae415466-0e91-4c4e-866a-8139be30a2fa/TempModel_124211340420648)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -52,9 +55,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6nwqibR6hMT">
-                <node concept="3balQm" id="6nwqibR6hMU" role="aymYE" />
-                <node concept="2Clz$F" id="6nwqibR6hMV" role="aymYO">
+              <node concept="aymSD" id="4n$hzqnUhXn">
+                <node concept="3balQm" id="4n$hzqnUhXo" role="aymYE" />
+                <node concept="2Clz$F" id="4n$hzqnUhXp" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -86,16 +89,16 @@
       <file leaf-file-name="ExtendedSolution" pinned="false" current-in-tab="true">
         <entry file="mps://node://ExtendedRoute.runtime/ExtendedRoute.testExtended/ExtendedSolution">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="199" />
+                    <property name="caretXRelative" value="36" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_our_var" cellNumber="0" isInList="false">
-                      <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" />
+                    <cellInfo cellId="Constant_bm7pr7_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -104,7 +107,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -137,7 +140,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -171,7 +174,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -205,7 +208,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -225,7 +228,7 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="283" />
+                    <property name="caretX" value="286" />
                     <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
@@ -290,7 +293,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -324,7 +327,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -358,7 +361,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+              <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -372,6 +375,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -390,12 +396,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -472,9 +477,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -486,8 +488,34 @@
               <option name="myItemId" value="197a3f15-e788-4d9b-b6f9-860847284fce(ExtendedRoute)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:8798301a-ebef-4eac-8b4a-199794f74621(ExtendedRoute.editor) in IdeaFile{file://E:/Courses/MDE/Code/legoCommand/languages/ExtendedRoute/models/editor.mps}" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/ExtendedRoute/runtime/ExtendedRoute.runtime.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/ExtendedRoute/runtime/ExtendedRoute.runtime.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtendedRoute" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,27 +533,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended) in IdeaFile{file://E:/Courses/MDE/Code/legoCommand/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f27d810c-bdb4-44cd-b6c9-3a29a5133e07(Route)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="197a3f15-e788-4d9b-b6f9-860847284fce(ExtendedRoute)" />
+              <option name="myItemId" value="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended) in IdeaFile{file:///Users/Berihun/Desktop/projects/legoCommand/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,80 +549,10 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/ExtendedRoute/runtime/ExtendedRoute.runtime.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="197a3f15-e788-4d9b-b6f9-860847284fce(ExtendedRoute)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d679cd34-7db0-4a58-a9e5-9a64976f0d24(ExtendedRoute.structure) in IdeaFile{file://E:/Courses/MDE/Code/legoCommand/languages/ExtendedRoute/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/ExtendedRoute/runtime/ExtendedRoute.runtime.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExtendedRoute" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="f27d810c-bdb4-44cd-b6c9-3a29a5133e07(Route)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c7f70bb3-209d-4211-8e0f-147066fa34d1(Route.editor) in IdeaFile{file://E:/Courses/MDE/Code/legoCommand/languages/forwardCommand/models/Route/editor.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/ExtendedRoute/runtime/ExtendedRoute.runtime.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExtendedRoute" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended) in IdeaFile{file://E:/Courses/MDE/Code/legoCommand/languages/ExtendedRoute/runtime/models/ExtendedRoute/testExtended.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4711973913284897484" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
         </subPane>
       </pane>
       <pane id="FileSystem">
@@ -627,10 +565,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Java Application.Node ExtendedSolution (5)">
     <configuration default="false" name="Node ExtendedSolution (1)" type="Java Application" factoryName="Java" temporary="true">
@@ -826,10 +769,10 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\byimam\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -844,18 +787,16 @@
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26901874" sideWeight="0.58869046" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911798" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44762954" sideWeight="0.4113095" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44649935" sideWeight="0.4113095" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646086" sideWeight="0.3952381" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.4904762" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2067239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
@@ -863,7 +804,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911798" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646086" sideWeight="0.3952381" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1044,18 +987,8 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:8798301a-ebef-4eac-8b4a-199794f74621(ExtendedRoute.editor)/4711973913284559023" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="23" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_k5wohi_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:8798301a-ebef-4eac-8b4a-199794f74621(ExtendedRoute.editor)/4711973913284559023" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
@@ -1456,7 +1389,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509403227" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1584,7 +1517,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:8798301a-ebef-4eac-8b4a-199794f74621(ExtendedRoute.editor)/4711973913284559008" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1776,7 +1709,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:8798301a-ebef-4eac-8b4a-199794f74621(ExtendedRoute.editor)/7340982991509498073" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1840,7 +1773,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509497792" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1854,16 +1787,16 @@
     </entry>
     <entry file="mps://node://ExtendedRoute.runtime/ExtendedRoute.testExtended/ExtendedSolution">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="199" />
+                <property name="caretXRelative" value="36" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_our_var" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" />
+                <cellInfo cellId="Constant_bm7pr7_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1872,7 +1805,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/4711973913284897484" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
+          <inspectorMemento currentlyEditedNode="r:6c3dbd54-334c-4582-b734-592e37b14736(ExtendedRoute.testExtended)/7340982991509259717" saveSessionState="false" viewPositionX="0" viewPositionY="-8">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

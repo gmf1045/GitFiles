@@ -7,7 +7,13 @@
   <imports />
   <registry>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
-      <concept id="4711973913284151257" name="ExtendedRoute.structure.extendedCanvas" flags="ng" index="1tksMm" />
+      <concept id="4711973913284113279" name="ExtendedRoute.structure.var" flags="ng" index="1tkbwK">
+        <property id="4711973913284126681" name="Var_id" index="1tkmMm" />
+        <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
+      </concept>
+      <concept id="4711973913284151257" name="ExtendedRoute.structure.extendedCanvas" flags="ng" index="1tksMm">
+        <child id="4711973913284666915" name="our_var" index="1tmiPG" />
+      </concept>
     </language>
     <language id="f27d810c-bdb4-44cd-b6c9-3a29a5133e07" name="Route">
       <concept id="7713087181228188853" name="Route.structure.forward" flags="ng" index="2tGWtp">
@@ -28,6 +34,10 @@
   </registry>
   <node concept="1tksMm" id="45$iOWsgeFc">
     <property role="TrG5h" value="ExtendedSolution" />
+    <node concept="1tkbwK" id="4n$hzqnUuPB" role="1tmiPG">
+      <property role="1tkmMm" value="var" />
+      <property role="1tmiS_" value="230" />
+    </node>
     <node concept="2tGWtp" id="6nwqibR4uQ9" role="2tKvIK">
       <property role="1thQIt" value="200" />
     </node>
