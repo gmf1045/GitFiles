@@ -24,11 +24,14 @@ public class ourTestCLass extends JFrame {
       Point currPoint = new Point(300, 300);
       _currentDirection = 6;
 
+
       currPoint = moveForward(graphics, currPoint, 100);
       turn(6);
       turn(2);
       currPoint = moveForward(graphics, currPoint, 150);
       turn(4);
+      currPoint = moveForward(graphics, currPoint, 200);
+      turn(2);
       currPoint = moveForward(graphics, currPoint, 200);
     }
   };
