@@ -7,7 +7,9 @@
   <imports />
   <registry>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
-      <concept id="7340982991508806863" name="ExtendedRoute.structure.forward_var" flags="ng" index="2iWnnH" />
+      <concept id="7340982991508806863" name="ExtendedRoute.structure.forward_var" flags="ng" index="2iWnnH">
+        <reference id="7340982991508860102" name="distance" index="2iWon$" />
+      </concept>
       <concept id="4711973913284113279" name="ExtendedRoute.structure.var" flags="ng" index="1tkbwK">
         <property id="4711973913284126681" name="Var_id" index="1tkmMm" />
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
@@ -35,45 +37,40 @@
   </registry>
   <node concept="1tksMm" id="45$iOWsgeFc">
     <property role="TrG5h" value="ExtendedSolution" />
-    <node concept="1tkbwK" id="4n$hzqnUuPB" role="1tmiPG">
-      <property role="1tkmMm" value="var" />
-      <property role="1tmiS_" value="230" />
-    </node>
     <node concept="2tGWtp" id="6nwqibR4uQ9" role="2tKvIK">
-      <property role="1thQIt" value="200" />
+      <property role="1thQIt" value="20" />
     </node>
     <node concept="2tGWwJ" id="6nwqibR60mz" role="2tKvIK">
       <property role="2tGWwY" value="2" />
     </node>
-    <node concept="2tGWtp" id="6nwqibR60n5" role="2tKvIK">
-      <property role="1thQIt" value="150" />
+    <node concept="2iWnnH" id="5qmfmU$tzeM" role="2tKvIK">
+      <ref role="2iWon$" node="5qmfmU$trdA" />
     </node>
-    <node concept="2tGWwJ" id="6nwqibR60tT" role="2tKvIK">
-      <property role="2tGWwY" value="4" />
+    <node concept="2tGWwJ" id="5qmfmU$t$lW" role="2tKvIK">
+      <property role="2tGWwY" value="6" />
     </node>
-    <node concept="2tGWtp" id="6nwqibR60uz" role="2tKvIK">
-      <property role="1thQIt" value="150" />
-    </node>
-    <node concept="2tGWwJ" id="6nwqibR60_O" role="2tKvIK">
-      <property role="2tGWwY" value="2" />
-    </node>
-    <node concept="2tGWtp" id="6nwqibR60AA" role="2tKvIK">
-      <property role="1thQIt" value="50" />
-    </node>
-    <node concept="2tGWwJ" id="6nwqibR60Bs" role="2tKvIK">
-      <property role="2tGWwY" value="4" />
-    </node>
-    <node concept="2tGWtp" id="6nwqibR60Cm" role="2tKvIK">
+    <node concept="2tGWtp" id="5qmfmU$t$mO" role="2tKvIK">
       <property role="1thQIt" value="100" />
     </node>
-    <node concept="2tGWwJ" id="6nwqibR60Dk" role="2tKvIK">
-      <property role="2tGWwY" value="8" />
+    <node concept="2tGWwJ" id="5qmfmU$t$ox" role="2tKvIK">
+      <property role="2tGWwY" value="4" />
     </node>
-    <node concept="2tGWtp" id="6nwqibR60EF" role="2tKvIK">
-      <property role="1thQIt" value="400" />
+    <node concept="2iWnnH" id="5qmfmU$t$pq" role="2tKvIK">
+      <ref role="2iWon$" node="5qmfmU$trdl" />
     </node>
-    <node concept="2iWnnH" id="4n$hzqnVcfh" role="2tKvIK">
-      <property role="TrG5h" value="var" />
+    <node concept="2tGWwJ" id="5qmfmU$tGBY" role="2tKvIK">
+      <property role="2tGWwY" value="30" />
+    </node>
+    <node concept="2iWnnH" id="5qmfmU$tGD6" role="2tKvIK">
+      <ref role="2iWon$" node="5qmfmU$trdA" />
+    </node>
+    <node concept="1tkbwK" id="5qmfmU$trdl" role="1tmiPG">
+      <property role="1tkmMm" value="var1" />
+      <property role="1tmiS_" value="50" />
+    </node>
+    <node concept="1tkbwK" id="5qmfmU$trdA" role="1tmiPG">
+      <property role="1tkmMm" value="var2" />
+      <property role="1tmiS_" value="80" />
     </node>
   </node>
 </model>

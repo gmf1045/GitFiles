@@ -37,7 +37,7 @@ public class extendedCanvas_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_m18899_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_m18899_a0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_m18899_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_m18899_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_m18899_c0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_m18899_d0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_m18899_e0(editorContext, node));
@@ -71,21 +71,15 @@ public class extendedCanvas_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-  private EditorCell createCollection_m18899_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_m18899_b0");
-    editorCell.addEditorCell(this.createRefNodeList_m18899_a1a(editorContext, node));
-    return editorCell;
-  }
-  private EditorCell createRefNodeList_m18899_a1a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new extendedCanvas_Editor.our_varListHandler_m18899_a1a(node, "our_var", editorContext);
+  private EditorCell createRefNodeList_m18899_b0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new extendedCanvas_Editor.our_varListHandler_m18899_b0(node, "our_var", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_our_var");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class our_varListHandler_m18899_a1a extends RefNodeListHandler {
-    public our_varListHandler_m18899_a1a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class our_varListHandler_m18899_b0 extends RefNodeListHandler {
+    public our_varListHandler_m18899_b0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -108,7 +102,7 @@ public class extendedCanvas_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(our_varListHandler_m18899_a1a.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, 0x41644b4f1c3d6623L, "our_var")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(our_varListHandler_m18899_b0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, 0x41644b4f1c3d6623L, "our_var")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell(editorContext);
