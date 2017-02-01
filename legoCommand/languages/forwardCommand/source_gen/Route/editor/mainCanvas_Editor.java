@@ -62,7 +62,7 @@ public class mainCanvas_Editor extends DefaultNodeEditor {
   private EditorCell createProperty_l60nf1_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("startX");
-    provider.setNoTargetText("<no startX>");
+    provider.setNoTargetText("300");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_startX");
@@ -90,7 +90,7 @@ public class mainCanvas_Editor extends DefaultNodeEditor {
   private EditorCell createProperty_l60nf1_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("startY");
-    provider.setNoTargetText("<no startY>");
+    provider.setNoTargetText("300");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_startY");

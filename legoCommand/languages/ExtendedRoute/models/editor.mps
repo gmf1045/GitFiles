@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tnak" ref="r:d679cd34-7db0-4a58-a9e5-9a64976f0d24(ExtendedRoute.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="boso" ref="r:bfa54b39-db6e-4249-a957-b3010b364f39(Route.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -30,6 +30,7 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -53,6 +54,30 @@
   <node concept="24kQdi" id="45$iOWsdo$V">
     <ref role="1XX52x" to="tnak:45$iOWsdovp" resolve="extendedCanvas" />
     <node concept="3EZMnI" id="45$iOWsdoAF" role="2wV5jI">
+      <node concept="3F0ifn" id="5qmfmU$tOgd" role="3EZMnx">
+        <property role="3F0ifm" value="Start point on Canvas:" />
+      </node>
+      <node concept="3EZMnI" id="5qmfmU$tOiz" role="3EZMnx">
+        <node concept="2iRfu4" id="5qmfmU$tOi$" role="2iSdaV" />
+        <node concept="3F0ifn" id="5qmfmU$tOhG" role="3EZMnx">
+          <property role="3F0ifm" value="StartX:" />
+        </node>
+        <node concept="3F0A7n" id="5qmfmU$tOkG" role="3EZMnx">
+          <property role="1$x2rV" value="300" />
+          <ref role="1NtTu8" to="boso:6nwqibR2D9g" resolve="startX" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5qmfmU$tOp0" role="3EZMnx">
+        <node concept="2iRfu4" id="5qmfmU$tOp1" role="2iSdaV" />
+        <node concept="3F0ifn" id="5qmfmU$tOo8" role="3EZMnx">
+          <property role="3F0ifm" value="StartY:" />
+        </node>
+        <node concept="3F0A7n" id="5qmfmU$tOqI" role="3EZMnx">
+          <property role="1$x2rV" value="300" />
+          <ref role="1NtTu8" to="boso:6nwqibR2D9B" resolve="startY" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5qmfmU$tOr2" role="3EZMnx" />
       <node concept="3EZMnI" id="6nwqibR5AFB" role="3EZMnx">
         <node concept="2iRfu4" id="6nwqibR5AFC" role="2iSdaV" />
         <node concept="3F0ifn" id="45$iOWsdoE5" role="3EZMnx">
