@@ -25,7 +25,12 @@
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -57,12 +62,9 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
-      <node concept="3EZMnI" id="6nwqibR5AEI" role="3EZMnx">
-        <node concept="2iRfu4" id="6nwqibR5AEJ" role="2iSdaV" />
-        <node concept="3F2HdR" id="6nwqibR5AJ5" role="3EZMnx">
-          <ref role="1NtTu8" to="tnak:45$iOWsfmoz" resolve="our_var" />
-          <node concept="2iRfu4" id="6nwqibR5AJ7" role="2czzBx" />
-        </node>
+      <node concept="3F2HdR" id="6nwqibR5AJ5" role="3EZMnx">
+        <ref role="1NtTu8" to="tnak:45$iOWsfmoz" resolve="our_var" />
+        <node concept="2iRfu4" id="6nwqibR5AJ7" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="45$iOWseXnk" role="3EZMnx" />
       <node concept="3F0ifn" id="45$iOWsdoHC" role="3EZMnx">
@@ -80,19 +82,46 @@
   </node>
   <node concept="24kQdi" id="45$iOWseW2k">
     <ref role="1XX52x" to="tnak:45$iOWsdfdZ" resolve="var" />
-    <node concept="3EZMnI" id="6nwqibR6UBv" role="2wV5jI">
-      <node concept="2iRfu4" id="6nwqibR6UBw" role="2iSdaV" />
-      <node concept="3F0ifn" id="6nwqibR6U$x" role="3EZMnx">
-        <property role="3F0ifm" value="Name:" />
+    <node concept="3EZMnI" id="5qmfmU$tofY" role="2wV5jI">
+      <node concept="2iRfu4" id="5qmfmU$tofZ" role="2iSdaV" />
+      <node concept="3EZMnI" id="5qmfmU$tpGX" role="3EZMnx">
+        <node concept="2iRkQZ" id="5qmfmU$tpGY" role="2iSdaV" />
+        <node concept="3EZMnI" id="5qmfmU$tpId" role="3EZMnx">
+          <node concept="2iRfu4" id="5qmfmU$tpIe" role="2iSdaV" />
+          <node concept="3F0ifn" id="6nwqibR6U$x" role="3EZMnx">
+            <property role="3F0ifm" value="Name:" />
+          </node>
+          <node concept="3F0A7n" id="5qmfmU$tpJp" role="3EZMnx">
+            <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
+          </node>
+          <node concept="3F0ifn" id="5qmfmU$tpKg" role="3EZMnx">
+            <property role="3F0ifm" value="Value:" />
+          </node>
+          <node concept="3F0A7n" id="5qmfmU$tpLl" role="3EZMnx">
+            <ref role="1NtTu8" to="tnak:45$iOWsfmlE" resolve="Var_value" />
+          </node>
+          <node concept="3F0ifn" id="5qmfmU$tpO4" role="3EZMnx">
+            <property role="3F0ifm" value=";" />
+          </node>
+        </node>
       </node>
-      <node concept="3F0A7n" id="6nwqibR6UCv" role="3EZMnx">
-        <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5qmfmU$truy">
+    <ref role="1XX52x" to="tnak:6nwqibR4hNf" resolve="forward_var" />
+    <node concept="3EZMnI" id="5qmfmU$trwP" role="2wV5jI">
+      <node concept="2iRfu4" id="5qmfmU$trwQ" role="2iSdaV" />
+      <node concept="3F0ifn" id="5qmfmU$try5" role="3EZMnx">
+        <property role="3F0ifm" value="Forward with Variable:" />
       </node>
-      <node concept="3F0ifn" id="6nwqibR6UDP" role="3EZMnx">
-        <property role="3F0ifm" value="Value:" />
-      </node>
-      <node concept="3F0A7n" id="6nwqibR6UD1" role="3EZMnx">
-        <ref role="1NtTu8" to="tnak:45$iOWsfmlE" resolve="Var_value" />
+      <node concept="1iCGBv" id="5qmfmU$trBT" role="3EZMnx">
+        <ref role="1NtTu8" to="tnak:6nwqibR4uN6" resolve="distance" />
+        <node concept="1sVBvm" id="5qmfmU$trBV" role="1sWHZn">
+          <node concept="3F0A7n" id="5qmfmU$trD6" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
