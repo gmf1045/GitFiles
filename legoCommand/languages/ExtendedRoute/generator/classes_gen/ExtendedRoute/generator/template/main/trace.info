@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="15,0,39,0" name="ExtendedRoute.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:c18a5991-78d2-4d83-917b-9ed2f9fcb34f(ExtendedRoute.generator.template.main@generator)/4711973913284697023">
+    <file name="QueriesGenerated.java">
+      <node id="7713087181229643476" at="17,112,18,333" concept="0" />
+      <node id="7713087181229742753" at="20,112,21,331" concept="0" />
+      <node id="5898776707557737096" at="23,112,24,175" concept="0" />
+      <node id="4711973913284705587" at="26,112,27,175" concept="0" />
+      <node id="7713087181229715532" at="29,94,30,181" concept="0" />
+      <node id="7713087181229731549" at="32,94,33,178" concept="0" />
+      <node id="7713087181229675104" at="35,120,36,198" concept="0" />
+      <scope id="7713087181229635825" at="17,112,18,333" />
+      <scope id="7713087181229698005" at="20,112,21,331" />
+      <scope id="5898776707557736280" at="23,112,24,175" />
+      <scope id="4711973913284697172" at="26,112,27,175" />
+      <scope id="7713087181229706976" at="29,94,30,181" />
+      <scope id="7713087181229723195" at="32,94,33,178" />
+      <scope id="7713087181229675098" at="35,120,36,198" />
+    </file>
+  </root>
+</debug-info>
+
