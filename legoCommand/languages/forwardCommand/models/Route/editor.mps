@@ -20,6 +20,7 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -37,7 +38,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6GaoYNQIqJm">
-    <ref role="1XX52x" to="boso:6GaoYNQIqIG" resolve="ourcanvas" />
+    <ref role="1XX52x" to="boso:6GaoYNQIqIG" resolve="mainCanvas" />
     <node concept="3EZMnI" id="6GaoYNQNfke" role="2wV5jI">
       <node concept="3F0ifn" id="45$iOWs6PDC" role="3EZMnx">
         <property role="3F0ifm" value="Start point on Canvas:" />
@@ -48,6 +49,7 @@
           <property role="3F0ifm" value="StartX:" />
         </node>
         <node concept="3F0A7n" id="6nwqibR2Rnf" role="3EZMnx">
+          <property role="1$x2rV" value="300" />
           <ref role="1NtTu8" to="boso:6nwqibR2D9g" resolve="startX" />
         </node>
       </node>
@@ -57,6 +59,7 @@
           <property role="3F0ifm" value="StartY:" />
         </node>
         <node concept="3F0A7n" id="6nwqibR2Rm4" role="3EZMnx">
+          <property role="1$x2rV" value="300" />
           <ref role="1NtTu8" to="boso:6nwqibR2D9B" resolve="startY" />
         </node>
       </node>
