@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="7,0,11,0" name="ExtendedRoute.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,16,0" name="ExtendedRoute.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:71e15f37-92f9-4221-a02a-d46510555998(ExtendedRoute.typesystem)/3515575959905405212">
+    <file name="checkValue_NonTypesystemRule.java">
+      <node id="3722277501067381566" at="22,7,23,60" concept="4" />
+      <node id="3722277501067381566" at="23,60,24,238" concept="4" />
+      <node id="3515575959905405212" at="28,50,29,140" concept="5" />
+      <node id="3515575959905405212" at="31,68,32,102" concept="5" />
+      <node id="3515575959905405212" at="34,30,35,17" concept="5" />
+      <node id="3515575959905405212" at="18,0,20,0" concept="1" trace="checkValue_NonTypesystemRule#()V" />
+      <node id="3515575959905405212" at="28,0,31,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3515575959905405212" at="31,0,34,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3515575959905405212" at="34,0,37,0" concept="3" trace="overrides#()Z" />
+      <node id="3722277501067381566" at="21,184,25,7" concept="0" />
+      <node id="3722277501067371276" at="20,121,26,5" concept="2" />
+      <node id="3515575959905405212" at="20,0,28,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3515575959905405212" at="18,41,18,41" />
+      <scope id="3515575959905405212" at="28,50,29,140" />
+      <scope id="3515575959905405212" at="31,68,32,102" />
+      <scope id="3515575959905405212" at="34,30,35,17" />
+      <scope id="3515575959905405212" at="18,0,20,0" />
+      <scope id="3722277501067381566" at="22,7,24,238">
+        <var name="_reporter_2309309498" id="3722277501067381566" />
+        <var name="errorTarget" id="3722277501067381566" />
+      </scope>
+      <scope id="3515575959905405212" at="28,0,31,0" />
+      <scope id="3515575959905405212" at="31,0,34,0">
+        <var name="argument" id="3515575959905405212" />
+      </scope>
+      <scope id="3515575959905405212" at="34,0,37,0" />
+      <scope id="3722277501067371278" at="21,184,25,7" />
+      <scope id="3515575959905405213" at="20,121,26,5" />
+      <scope id="3515575959905405212" at="20,0,28,0">
+        <var name="status" id="3515575959905405212" />
+        <var name="typeCheckingContext" id="3515575959905405212" />
+        <var name="variable" id="3515575959905405212" />
+      </scope>
+      <unit id="3515575959905405212" at="17,0,38,0" name="ExtendedRoute.typesystem.checkValue_NonTypesystemRule" />
     </file>
   </root>
 </debug-info>

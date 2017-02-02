@@ -287,6 +287,9 @@
       <node concept="2iRfu4" id="5qmfmU$trwQ" role="2iSdaV" />
       <node concept="3F0ifn" id="5qmfmU$try5" role="3EZMnx">
         <property role="3F0ifm" value="Forward with Variable:" />
+        <node concept="Vb9p2" id="339Prmf4McA" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
       </node>
       <node concept="1iCGBv" id="5qmfmU$trBT" role="3EZMnx">
         <ref role="1NtTu8" to="tnak:6nwqibR4uN6" resolve="distance" />
@@ -294,7 +297,13 @@
           <node concept="3F0A7n" id="339PrmeZ9w6" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="339Prmf4TwR" role="3F10Kt">
+              <property role="Vbekb" value="ITALIC" />
+            </node>
           </node>
+        </node>
+        <node concept="Vb9p2" id="339Prmf4Tzg" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
         </node>
       </node>
     </node>
