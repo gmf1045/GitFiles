@@ -87,9 +87,9 @@
   </node>
   <node concept="1TIwiD" id="6nwqibR4hNf">
     <property role="EcuMT" value="7340982991508806863" />
-    <property role="TrG5h" value="forward_extended" />
+    <property role="TrG5h" value="forward_reference" />
     <property role="R4oN_" value="Forward extend." />
-    <property role="34LRSv" value="forward_extended" />
+    <property role="34LRSv" value="forward_reference" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
     <node concept="1TJgyj" id="6nwqibR4uN6" role="1TKVEi">
@@ -107,9 +107,22 @@
     <node concept="1TJgyj" id="3b3L2$kKJk7" role="1TKVEi">
       <property role="IQ2ns" value="3657983003075998983" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="added_operators" />
+      <property role="20kJfa" value="added_expressions" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3b3L2$kQXZ4">
+    <property role="EcuMT" value="3657983003077631940" />
+    <property role="TrG5h" value="New_Expression" />
+    <property role="34LRSv" value="New_expression" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="3b3L2$kQYqX" role="1TKVEi">
+      <property role="IQ2ns" value="3657983003077633725" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="distance" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
     </node>
   </node>
 </model>

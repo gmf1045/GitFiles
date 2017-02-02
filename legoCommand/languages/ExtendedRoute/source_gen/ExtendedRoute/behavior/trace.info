@@ -4,14 +4,17 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="ExtendedRoute.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="New_Expression_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.New_Expression_BehaviorDescriptor" />
+    </file>
     <file name="extendedCanvas_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.extendedCanvas_BehaviorDescriptor" />
     </file>
     <file name="forward_edited_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_edited_BehaviorDescriptor" />
     </file>
-    <file name="forward_extended_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_extended_BehaviorDescriptor" />
+    <file name="forward_reference_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_reference_BehaviorDescriptor" />
     </file>
     <file name="variable_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.variable_BehaviorDescriptor" />

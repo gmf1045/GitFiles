@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="ExtendedRoute.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="ExtendedRoute.editor.New_Expression_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.extendedCanvas_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.forward_edited_Editor" />
-    <classNode dependClassName="ExtendedRoute.editor.forward_extended_Editor" />
+    <classNode dependClassName="ExtendedRoute.editor.forward_reference_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.variable_Editor" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.util.Collection" />
@@ -15,6 +16,21 @@
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.EditorAspectDescriptorBase" />
+  </dependency>
+  <dependency className="ExtendedRoute.editor.New_Expression_Editor" file="New_Expression_Editor.java">
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="ExtendedRoute.editor.extendedCanvas_Editor" file="extendedCanvas_Editor.java">
     <classNode dependClassName="java.lang.String" />
@@ -66,7 +82,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="ExtendedRoute.editor.forward_extended_Editor" file="forward_extended_Editor.java">
+  <dependency className="ExtendedRoute.editor.forward_reference_Editor" file="forward_reference_Editor.java">
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />

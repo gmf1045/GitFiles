@@ -279,7 +279,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5qmfmU$truy">
-    <ref role="1XX52x" to="tnak:6nwqibR4hNf" resolve="forward_extended" />
+    <ref role="1XX52x" to="tnak:6nwqibR4hNf" resolve="forward_reference" />
     <node concept="3EZMnI" id="5qmfmU$trwP" role="2wV5jI">
       <node concept="2iRfu4" id="5qmfmU$trwQ" role="2iSdaV" />
       <node concept="3F0ifn" id="5qmfmU$try5" role="3EZMnx">
@@ -314,6 +314,21 @@
       </node>
       <node concept="3F1sOY" id="3b3L2$kLQoP" role="3EZMnx">
         <ref role="1NtTu8" to="tnak:3b3L2$kKJk7" resolve="added_operators" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3b3L2$kQYcu">
+    <ref role="1XX52x" to="tnak:3b3L2$kQXZ4" resolve="New_Expression" />
+    <node concept="3EZMnI" id="3b3L2$kS5IB" role="2wV5jI">
+      <node concept="l2Vlx" id="3b3L2$kS5IC" role="2iSdaV" />
+      <node concept="1iCGBv" id="3b3L2$kRlpR" role="3EZMnx">
+        <ref role="1NtTu8" to="tnak:3b3L2$kQYqX" resolve="distance" />
+        <node concept="1sVBvm" id="3b3L2$kRlpT" role="1sWHZn">
+          <node concept="3F0A7n" id="3b3L2$kRlqq" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -22,20 +22,25 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       switch (switchIndex) {
         case 0:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new extendedCanvas_Editor());
+            return Collections.<ConceptEditor>singletonList(new New_Expression_Editor());
           }
           break;
         case 1:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new forward_edited_Editor());
+            return Collections.<ConceptEditor>singletonList(new extendedCanvas_Editor());
           }
           break;
         case 2:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new forward_extended_Editor());
+            return Collections.<ConceptEditor>singletonList(new forward_edited_Editor());
           }
           break;
         case 3:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new forward_reference_Editor());
+          }
+          break;
+        case 4:
           if (true) {
             return Collections.<ConceptEditor>singletonList(new variable_Editor());
           }
@@ -56,5 +61,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, "ExtendedRoute.structure.extendedCanvas"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_extended"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, "ExtendedRoute.structure.variable"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914dbdfc4L, "ExtendedRoute.structure.New_Expression"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, "ExtendedRoute.structure.extendedCanvas"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_reference"), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, "ExtendedRoute.structure.variable"));
 }

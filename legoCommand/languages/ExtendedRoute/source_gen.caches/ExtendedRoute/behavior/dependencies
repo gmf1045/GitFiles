@@ -10,6 +10,10 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBehaviorAspectDescriptor" />
   </dependency>
+  <dependency className="ExtendedRoute.behavior.New_Expression_BehaviorDescriptor" file="New_Expression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
   <dependency className="ExtendedRoute.behavior.extendedCanvas_BehaviorDescriptor" file="extendedCanvas_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
@@ -18,7 +22,7 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
-  <dependency className="ExtendedRoute.behavior.forward_extended_BehaviorDescriptor" file="forward_extended_BehaviorDescriptor.java">
+  <dependency className="ExtendedRoute.behavior.forward_reference_BehaviorDescriptor" file="forward_reference_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>

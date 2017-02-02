@@ -23,7 +23,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, "Route.structure.mainCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x65e06922f70a9267L, "startY"));
   }
   public static Object propertyMacro_GetPropertyValue_7340982991508991124(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_extended")), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, 0x65e06922f711ecc6L, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_reference")), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, 0x65e06922f711ecc6L, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
   }
   public static Object propertyMacro_GetPropertyValue_7713087181229635824(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, 0x41644b4f1c2320d2L, "distance"));
@@ -43,11 +43,14 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_4711973913284697171(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
+  public static Object propertyMacro_GetPropertyValue_3657983003077798858(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914dbdfc4L, 0x32c3c42914dbe6bdL, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
+  }
   public static boolean ifMacro_Condition_3657983003077264092(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited"));
   }
   public static boolean ifMacro_Condition_7340982991508991133(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_extended"));
+    return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x65e06922f7111ccfL, "ExtendedRoute.structure.forward_reference"));
   }
   public static boolean ifMacro_Condition_7713087181229706974(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward"));
@@ -56,7 +59,7 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abc3L, "Route.structure.turn"));
   }
   public static SNode sourceNodeQuery_3657983003077401948(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited")), MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, 0x32c3c42914c2f507L, "added_operators"));
+    return SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited")), MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, 0x32c3c42914c2f507L, "added_expressions"));
   }
   public static Iterable<SNode> sourceNodesQuery_7713087181229675097(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x6b0a63ecf6cb985cL, "lst_commands"));

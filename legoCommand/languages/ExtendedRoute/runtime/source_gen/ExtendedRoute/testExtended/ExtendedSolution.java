@@ -22,21 +22,12 @@ public class ExtendedSolution extends JFrame {
 
       _currentDirection = 6;
 
-      int _sum = 0;
-
-
       currPoint = moveForward(graphics, currPoint, 200);
-
       turn(2);
-
       currPoint = moveForward(graphics, currPoint, 200);
-
       turn(6);
-
       currPoint = moveForward(graphics, currPoint, 100 + 120);
-
       turn(8);
-
       currPoint = moveForward(graphics, currPoint, 100);
     }
   };
