@@ -11,7 +11,6 @@
         <reference id="7340982991508860102" name="distance" index="2iWon$" />
       </concept>
       <concept id="4711973913284113279" name="ExtendedRoute.structure.variable" flags="ng" index="1tkbwK">
-        <property id="4711973913284126681" name="Var_id" index="1tkmMm" />
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
       </concept>
       <concept id="4711973913284151257" name="ExtendedRoute.structure.extendedCanvas" flags="ng" index="1tksMm">
@@ -47,35 +46,18 @@
     <node concept="2tGWwJ" id="6EX0tyoHcSh" role="2tKvIK">
       <property role="2tGWwY" value="2" />
     </node>
-    <node concept="1tkbwK" id="5qmfmU$y89R" role="1tmiPG">
-      <property role="1tkmMm" value="a" />
-      <property role="1tmiS_" value="220" />
-    </node>
-    <node concept="1tkbwK" id="6EX0tyoHc_S" role="1tmiPG">
-      <property role="1tkmMm" value="b" />
-      <property role="1tmiS_" value="240" />
-    </node>
-    <node concept="1tkbwK" id="6EX0tyoHn6A" role="1tmiPG">
-      <property role="1tkmMm" value="c" />
-      <property role="1tmiS_" value="200" />
-    </node>
     <node concept="2iWnnH" id="5qmfmU$ybGK" role="2tKvIK">
-      <ref role="2iWon$" node="5qmfmU$y89R" />
+      <ref role="2iWon$" node="339PrmeZakX" resolve="a" />
     </node>
     <node concept="2tGWwJ" id="5qmfmU$xzB6" role="2tKvIK">
       <property role="2tGWwY" value="8" />
     </node>
-    <node concept="2iWnnH" id="6EX0tyoHcAI" role="2tKvIK">
-      <ref role="2iWon$" node="6EX0tyoHc_S" />
+    <node concept="2iWnnH" id="339PrmeZanx" role="2tKvIK">
+      <ref role="2iWon$" node="339PrmeZakX" resolve="a" />
     </node>
-    <node concept="2tGWwJ" id="6EX0tyoHdk0" role="2tKvIK">
-      <property role="2tGWwY" value="6" />
-    </node>
-    <node concept="2iWnnH" id="6EX0tyoHn79" role="2tKvIK">
-      <ref role="2iWon$" node="6EX0tyoHn6A" />
-    </node>
-    <node concept="2tGWtp" id="339PrmeYB$o" role="2tKvIK">
-      <property role="1thQIt" value="200" />
+    <node concept="1tkbwK" id="339PrmeZakX" role="1tmiPG">
+      <property role="TrG5h" value="a" />
+      <property role="1tmiS_" value="200" />
     </node>
   </node>
 </model>

@@ -106,7 +106,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="45$iOWseW2k">
-    <ref role="1XX52x" to="tnak:45$iOWsdfdZ" resolve="var" />
+    <ref role="1XX52x" to="tnak:45$iOWsdfdZ" resolve="variable" />
     <node concept="3EZMnI" id="5qmfmU$vQLT" role="2wV5jI">
       <node concept="2iRkQZ" id="5qmfmU$woH2" role="2iSdaV" />
       <node concept="3EZMnI" id="5qmfmU$wp_X" role="3EZMnx">
@@ -116,8 +116,8 @@
           <node concept="3F0ifn" id="5qmfmU$wnQp" role="3EZMnx">
             <property role="3F0ifm" value="Name:" />
           </node>
-          <node concept="3F0A7n" id="5qmfmU$woJk" role="3EZMnx">
-            <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
+          <node concept="3F0A7n" id="339PrmeZ9uB" role="3EZMnx">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
         <node concept="3EZMnI" id="5qmfmU$wqsH" role="3EZMnx">
@@ -133,7 +133,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5qmfmU$truy">
-    <ref role="1XX52x" to="tnak:6nwqibR4hNf" resolve="forward_var" />
+    <ref role="1XX52x" to="tnak:6nwqibR4hNf" resolve="forward_extended" />
     <node concept="3EZMnI" id="5qmfmU$trwP" role="2wV5jI">
       <node concept="2iRfu4" id="5qmfmU$trwQ" role="2iSdaV" />
       <node concept="3F0ifn" id="5qmfmU$try5" role="3EZMnx">
@@ -142,9 +142,9 @@
       <node concept="1iCGBv" id="5qmfmU$trBT" role="3EZMnx">
         <ref role="1NtTu8" to="tnak:6nwqibR4uN6" resolve="distance" />
         <node concept="1sVBvm" id="5qmfmU$trBV" role="1sWHZn">
-          <node concept="3F0A7n" id="5qmfmU$trD6" role="2wV5jI">
+          <node concept="3F0A7n" id="339PrmeZ9w6" role="2wV5jI">
             <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tnak:45$iOWsdivp" resolve="Var_id" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>

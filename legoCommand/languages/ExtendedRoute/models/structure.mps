@@ -58,11 +58,6 @@
     <node concept="PrWs8" id="45$iOWsdfnG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="45$iOWsdivp" role="1TKVEl">
-      <property role="IQ2nx" value="4711973913284126681" />
-      <property role="TrG5h" value="Var_id" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="45$iOWsfmlE" role="1TKVEl">
       <property role="IQ2nx" value="4711973913284666730" />
       <property role="TrG5h" value="Var_value" />
