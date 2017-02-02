@@ -28,9 +28,6 @@
       </concept>
     </language>
     <language id="f27d810c-bdb4-44cd-b6c9-3a29a5133e07" name="Route">
-      <concept id="7713087181228188853" name="Route.structure.forward" flags="ng" index="2tGWtp">
-        <property id="4711973913282945234" name="distance" index="1thQIt" />
-      </concept>
       <concept id="7713087181228190659" name="Route.structure.turn" flags="ng" index="2tGWwJ">
         <property id="7713087181228190674" name="direction" index="2tGWwY" />
       </concept>
@@ -54,18 +51,6 @@
     <property role="TrG5h" value="testRobot_Expression" />
     <property role="2ZMqCR" value="1200" />
     <property role="2ZMqC2" value="800" />
-    <node concept="2tGWtp" id="3b3L2$kQ$9_" role="2tKvIK">
-      <property role="1thQIt" value="200" />
-    </node>
-    <node concept="2tGWwJ" id="3b3L2$kQ$9V" role="2tKvIK">
-      <property role="2tGWwY" value="8" />
-    </node>
-    <node concept="2tGWtp" id="7HXn0S9fLvc" role="2tKvIK">
-      <property role="1thQIt" value="200" />
-    </node>
-    <node concept="2tGWwJ" id="6ZCkl8xY54n" role="2tKvIK">
-      <property role="2tGWwY" value="4" />
-    </node>
     <node concept="A0j1t" id="6ZCkl8xY51x" role="2tKvIK">
       <node concept="3cpWs3" id="6ZCkl8xY51U" role="A0j4I">
         <node concept="1MfmLP" id="6ZCkl8xY52$" role="3uHU7w">
@@ -74,6 +59,14 @@
         <node concept="1MfmLP" id="6ZCkl8xY52h" role="3uHU7B">
           <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
         </node>
+      </node>
+    </node>
+    <node concept="2tGWwJ" id="6ZCkl8xYZKN" role="2tKvIK">
+      <property role="2tGWwY" value="2" />
+    </node>
+    <node concept="A0j1t" id="6ZCkl8xYZL$" role="2tKvIK">
+      <node concept="1MfmLP" id="6ZCkl8xYZMS" role="A0j4I">
+        <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
       </node>
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
