@@ -21,10 +21,15 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -54,6 +59,12 @@
   <node concept="24kQdi" id="45$iOWsdo$V">
     <ref role="1XX52x" to="tnak:45$iOWsdovp" resolve="extendedCanvas" />
     <node concept="3EZMnI" id="45$iOWsdoAF" role="2wV5jI">
+      <node concept="VPXOz" id="339Prmf0PJm" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="Veino" id="339Prmf0SRs" role="3F10Kt">
+        <property role="Vb096" value="LIGHT_BLUE" />
+      </node>
       <node concept="3F0ifn" id="5qmfmU$tOgd" role="3EZMnx">
         <property role="3F0ifm" value="Start point on Canvas:" />
       </node>
@@ -75,6 +86,23 @@
         <node concept="3F0A7n" id="5qmfmU$tOqI" role="3EZMnx">
           <property role="1$x2rV" value="300" />
           <ref role="1NtTu8" to="boso:6nwqibR2D9B" resolve="startY" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="339Prmf16WU" role="3EZMnx">
+        <node concept="2iRfu4" id="339Prmf16WV" role="2iSdaV" />
+        <node concept="3F0ifn" id="339Prmf16V6" role="3EZMnx">
+          <property role="3F0ifm" value="Width:" />
+        </node>
+        <node concept="3F0A7n" id="339Prmf16Yf" role="3EZMnx">
+          <property role="1$x2rV" value="1200" />
+          <ref role="1NtTu8" to="boso:339Prmf07Y2" resolve="width" />
+        </node>
+        <node concept="3F0ifn" id="339Prmf16Y_" role="3EZMnx">
+          <property role="3F0ifm" value="Hieght:" />
+        </node>
+        <node concept="3F0A7n" id="339Prmf16ZI" role="3EZMnx">
+          <property role="1$x2rV" value="800" />
+          <ref role="1NtTu8" to="boso:339Prmf07YR" resolve="height" />
         </node>
       </node>
       <node concept="3F0ifn" id="5qmfmU$tOr2" role="3EZMnx" />

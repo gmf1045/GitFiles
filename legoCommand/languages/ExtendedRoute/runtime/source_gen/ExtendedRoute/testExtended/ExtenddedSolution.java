@@ -23,6 +23,10 @@ public class ExtenddedSolution extends JFrame {
 
       _currentDirection = 6;
 
+      currPoint = moveForward(graphics, currPoint, 500);
+      turn(4);
+      currPoint = moveForward(graphics, currPoint, 500);
+      currPoint = moveForward(graphics, currPoint, 500);
     }
   };
 
