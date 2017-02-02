@@ -10,8 +10,8 @@
     <file name="extendedCanvas_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.extendedCanvas_BehaviorDescriptor" />
     </file>
-    <file name="forward_edited_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_edited_BehaviorDescriptor" />
+    <file name="forward_Expression_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_Expression_BehaviorDescriptor" />
     </file>
     <file name="forward_reference_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.forward_reference_BehaviorDescriptor" />
