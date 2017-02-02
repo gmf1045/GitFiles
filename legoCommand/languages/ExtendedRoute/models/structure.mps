@@ -124,6 +124,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
     </node>
+    <node concept="PrWs8" id="3b3L2$kTvAw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

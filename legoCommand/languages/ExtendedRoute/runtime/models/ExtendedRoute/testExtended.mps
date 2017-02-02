@@ -7,6 +7,7 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -81,6 +82,14 @@
     </node>
     <node concept="2tGWwJ" id="3b3L2$kQKIp" role="2tKvIK">
       <property role="2tGWwY" value="8" />
+    </node>
+    <node concept="A0j1t" id="3b3L2$kTwi8" role="2tKvIK">
+      <node concept="3cpWs3" id="3b3L2$kTwiK" role="A0j4I">
+        <node concept="3cmrfG" id="3b3L2$kTwk1" role="3uHU7w">
+          <property role="3cmrfH" value="100" />
+        </node>
+        <node concept="33vP2n" id="3b3L2$kTwjI" role="3uHU7B" />
+      </node>
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
       <property role="TrG5h" value="a" />
