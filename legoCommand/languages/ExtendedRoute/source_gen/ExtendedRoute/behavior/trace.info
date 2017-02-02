@@ -4,8 +4,8 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="ExtendedRoute.behavior.BehaviorAspectDescriptor" />
     </file>
-    <file name="New_Expression_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="ExtendedRoute.behavior.New_Expression_BehaviorDescriptor" />
+    <file name="RefToVar_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoute.behavior.RefToVar_BehaviorDescriptor" />
     </file>
     <file name="extendedCanvas_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoute.behavior.extendedCanvas_BehaviorDescriptor" />

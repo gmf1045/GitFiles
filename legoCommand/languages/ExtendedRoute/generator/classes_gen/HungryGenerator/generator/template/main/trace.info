@@ -7,12 +7,6 @@
       <unit at="16,0,68,0" name="HungryGenerator.generator.template.main.QueriesGenerated" />
     </file>
   </root>
-  <root nodeRef="r:c18a5991-78d2-4d83-917b-9ed2f9fcb34f(HungryGenerator.generator.template.main@generator)/3657983003077798063">
-    <file name="QueriesGenerated.java">
-      <node id="3657983003077799982" at="46,112,47,346" concept="0" />
-      <scope id="3657983003077798859" at="46,112,47,346" />
-    </file>
-  </root>
   <root nodeRef="r:c18a5991-78d2-4d83-917b-9ed2f9fcb34f(HungryGenerator.generator.template.main@generator)/4711973913284697023">
     <file name="QueriesGenerated.java">
       <node id="7340982991508356945" at="18,112,19,334" concept="0" />
@@ -46,6 +40,12 @@
       <scope id="3657983003077401949" at="61,108,62,363" />
       <scope id="7713087181229675098" at="64,120,65,198" />
       <scope id="7340982991508344469" at="18,112,20,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c18a5991-78d2-4d83-917b-9ed2f9fcb34f(HungryGenerator.generator.template.main@generator)/8898369654108467385">
+    <file name="QueriesGenerated.java">
+      <node id="8898369654108469870" at="46,112,47,346" concept="0" />
+      <scope id="8898369654108469869" at="46,112,47,346" />
     </file>
   </root>
 </debug-info>

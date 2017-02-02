@@ -256,10 +256,10 @@
   </registry>
   <node concept="bUwia" id="45$iOWsb2O_">
     <property role="TrG5h" value="main" />
-    <node concept="3aamgX" id="3b3L2$kRJPt" role="3acgRq">
-      <ref role="30HIoZ" to="tnak:3b3L2$kQXZ4" resolve="New_Expression" />
-      <node concept="j$656" id="3b3L2$kRJQ6" role="1lVwrX">
-        <ref role="v9R2y" node="3b3L2$kRAyJ" resolve="reduced_newExp" />
+    <node concept="3aamgX" id="7HXn0S9g32B" role="3acgRq">
+      <ref role="30HIoZ" to="tnak:7HXn0S9g31V" resolve="RefToVar" />
+      <node concept="j$656" id="7HXn0S9g32V" role="1lVwrX">
+        <ref role="v9R2y" node="7HXn0S9g32T" resolve="reduce_RefToVar" />
       </node>
     </node>
     <node concept="3lhOvk" id="45$iOWscUWH" role="3lj3bC">
@@ -424,11 +424,11 @@
                                   <node concept="3clFbF" id="3b3L2$kQh9k" role="3cqZAp">
                                     <node concept="2OqwBi" id="3b3L2$kQiP$" role="3clFbG">
                                       <node concept="1PxgMI" id="3b3L2$kQiv9" role="2Oq$k0">
-                                        <ref role="1m5ApE" to="tnak:3b3L2$kKJhO" resolve="forward_edited" />
+                                        <ref role="1m5ApE" to="tnak:3b3L2$kKJhO" resolve="forward_Expression" />
                                         <node concept="30H73N" id="3b3L2$kQh9j" role="1m5AlR" />
                                       </node>
                                       <node concept="3TrEf2" id="3b3L2$kQjqK" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="tnak:3b3L2$kKJk7" resolve="added_operators" />
+                                        <ref role="3Tt5mk" to="tnak:3b3L2$kKJk7" resolve="added_expressions" />
                                       </node>
                                     </node>
                                   </node>
@@ -449,7 +449,7 @@
                                 <node concept="30H73N" id="3b3L2$kPAs5" role="2Oq$k0" />
                                 <node concept="1mIQ4w" id="3b3L2$kPAs6" role="2OqNvi">
                                   <node concept="chp4Y" id="3b3L2$kPBfC" role="cj9EA">
-                                    <ref role="cht4Q" to="tnak:3b3L2$kKJhO" resolve="forward_edited" />
+                                    <ref role="cht4Q" to="tnak:3b3L2$kKJhO" resolve="forward_Expression" />
                                   </node>
                                 </node>
                               </node>
@@ -1360,34 +1360,34 @@
       <ref role="3uigEE" to="dxuu:~JFrame" resolve="JFrame" />
     </node>
   </node>
-  <node concept="13MO4I" id="3b3L2$kRAyJ">
-    <property role="TrG5h" value="reduced_newExp" />
-    <ref role="3gUMe" to="tnak:3b3L2$kQXZ4" resolve="New_Expression" />
-    <node concept="9aQIb" id="3b3L2$kRA_v" role="13RCb5">
-      <node concept="3clFbS" id="3b3L2$kRA_X" role="9aQI4">
-        <node concept="3cpWs8" id="3b3L2$kRA_S" role="3cqZAp">
-          <node concept="3cpWsn" id="3b3L2$kRA_V" role="3cpWs9">
+  <node concept="13MO4I" id="7HXn0S9g32T">
+    <property role="TrG5h" value="reduce_RefToVar" />
+    <ref role="3gUMe" to="tnak:7HXn0S9g31V" resolve="RefToVar" />
+    <node concept="9aQIb" id="7HXn0S9g3D$" role="13RCb5">
+      <node concept="3clFbS" id="7HXn0S9g3D_" role="9aQI4">
+        <node concept="3cpWs8" id="7HXn0S9g3DA" role="3cqZAp">
+          <node concept="3cpWsn" id="7HXn0S9g3DB" role="3cpWs9">
             <property role="TrG5h" value="int_value" />
-            <node concept="3uibUv" id="3b3L2$kRA_R" role="1tU5fm">
+            <node concept="3uibUv" id="7HXn0S9g3DC" role="1tU5fm">
               <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
             </node>
-            <node concept="3cmrfG" id="3b3L2$kRAI7" role="33vP2m">
+            <node concept="3cmrfG" id="7HXn0S9g3DD" role="33vP2m">
               <property role="3cmrfH" value="4" />
-              <node concept="raruj" id="3b3L2$kRAIJ" role="lGtFl" />
-              <node concept="17Uvod" id="3b3L2$kRAJ9" role="lGtFl">
+              <node concept="raruj" id="7HXn0S9g3DE" role="lGtFl" />
+              <node concept="17Uvod" id="7HXn0S9g3DF" role="lGtFl">
                 <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                 <property role="2qtEX9" value="value" />
-                <node concept="3zFVjK" id="3b3L2$kRAJa" role="3zH0cK">
-                  <node concept="3clFbS" id="3b3L2$kRAJb" role="2VODD2">
-                    <node concept="3clFbF" id="3b3L2$kRB0I" role="3cqZAp">
-                      <node concept="2OqwBi" id="3b3L2$kRCZm" role="3clFbG">
-                        <node concept="2OqwBi" id="3b3L2$kRBh4" role="2Oq$k0">
-                          <node concept="30H73N" id="3b3L2$kRB0H" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="3b3L2$kRCf$" role="2OqNvi">
-                            <ref role="3Tt5mk" to="tnak:3b3L2$kQYqX" resolve="distance" />
+                <node concept="3zFVjK" id="7HXn0S9g3DG" role="3zH0cK">
+                  <node concept="3clFbS" id="7HXn0S9g3DH" role="2VODD2">
+                    <node concept="3clFbF" id="7HXn0S9g3DI" role="3cqZAp">
+                      <node concept="2OqwBi" id="7HXn0S9gg3q" role="3clFbG">
+                        <node concept="2OqwBi" id="7HXn0S9g3DK" role="2Oq$k0">
+                          <node concept="30H73N" id="7HXn0S9g3DL" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="7HXn0S9gfdc" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tnak:7HXn0S9g31W" resolve="var" />
                           </node>
                         </node>
-                        <node concept="3TrcHB" id="3b3L2$kRDzT" role="2OqNvi">
+                        <node concept="3TrcHB" id="7HXn0S9ggvk" role="2OqNvi">
                           <ref role="3TsBF5" to="tnak:45$iOWsfmlE" resolve="Var_value" />
                         </node>
                       </node>

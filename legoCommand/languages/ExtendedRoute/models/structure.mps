@@ -113,20 +113,16 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3b3L2$kQXZ4">
-    <property role="EcuMT" value="3657983003077631940" />
-    <property role="TrG5h" value="New_Expression" />
-    <property role="34LRSv" value="New_expression" />
+  <node concept="1TIwiD" id="7HXn0S9g31V">
+    <property role="EcuMT" value="8898369654108467323" />
+    <property role="TrG5h" value="RefToVar" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="3b3L2$kQYqX" role="1TKVEi">
-      <property role="IQ2ns" value="3657983003077633725" />
+    <node concept="1TJgyj" id="7HXn0S9g31W" role="1TKVEi">
+      <property role="IQ2ns" value="8898369654108467324" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="var" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
-    </node>
-    <node concept="PrWs8" id="3b3L2$kTvAw" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

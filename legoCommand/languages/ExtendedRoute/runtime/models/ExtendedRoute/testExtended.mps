@@ -7,11 +7,17 @@
   <imports />
   <registry>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
+      <concept id="3657983003075998836" name="ExtendedRoute.structure.forward_Expression" flags="ng" index="A0j1t">
+        <child id="3657983003075998983" name="added_expressions" index="A0j4I" />
+      </concept>
       <concept id="4711973913284113279" name="ExtendedRoute.structure.variable" flags="ng" index="1tkbwK">
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
       </concept>
       <concept id="4711973913284151257" name="ExtendedRoute.structure.extendedCanvas" flags="ng" index="1tksMm">
         <child id="4711973913284666915" name="our_var" index="1tmiPG" />
+      </concept>
+      <concept id="8898369654108467323" name="ExtendedRoute.structure.RefToVar" flags="ng" index="1MfmLP">
+        <reference id="8898369654108467324" name="var" index="1MfmLM" />
       </concept>
     </language>
     <language id="f27d810c-bdb4-44cd-b6c9-3a29a5133e07" name="Route">
@@ -49,6 +55,11 @@
     </node>
     <node concept="2tGWtp" id="7HXn0S9fLvc" role="2tKvIK">
       <property role="1thQIt" value="200" />
+    </node>
+    <node concept="A0j1t" id="7HXn0S9gCHM" role="2tKvIK">
+      <node concept="1MfmLP" id="7HXn0S9gCHV" role="A0j4I">
+        <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
+      </node>
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
       <property role="TrG5h" value="a" />

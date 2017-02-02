@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="ExtendedRoute.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
-    <classNode dependClassName="ExtendedRoute.editor.New_Expression_Editor" />
+    <classNode dependClassName="ExtendedRoute.editor.RefToVar_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.extendedCanvas_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.forward_Expression_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.forward_reference_Editor" />
@@ -17,7 +17,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.EditorAspectDescriptorBase" />
   </dependency>
-  <dependency className="ExtendedRoute.editor.New_Expression_Editor" file="New_Expression_Editor.java">
+  <dependency className="ExtendedRoute.editor.RefToVar_Editor" file="RefToVar_Editor.java">
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
