@@ -141,6 +141,7 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="339Prmf3s7_" role="3EZMnx" />
       <node concept="3F0ifn" id="339Prmf0d1J" role="3EZMnx">
         <property role="3F0ifm" value="Start point on Canvas:" />
         <node concept="Vb9p2" id="339Prmf0ddm" role="3F10Kt">
