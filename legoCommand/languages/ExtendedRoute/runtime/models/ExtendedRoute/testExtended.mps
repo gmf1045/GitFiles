@@ -6,23 +6,7 @@
   </languages>
   <imports />
   <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
-      </concept>
-    </language>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
-      <concept id="7340982991508806863" name="ExtendedRoute.structure.forward_reference" flags="ng" index="2iWnnH">
-        <reference id="7340982991508860102" name="distance" index="2iWon$" />
-      </concept>
-      <concept id="3657983003075998836" name="ExtendedRoute.structure.forward_edited" flags="ng" index="A0j1t">
-        <child id="3657983003075998983" name="added_expressions" index="A0j4I" />
-      </concept>
       <concept id="4711973913284113279" name="ExtendedRoute.structure.variable" flags="ng" index="1tkbwK">
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
       </concept>
@@ -61,26 +45,10 @@
       <property role="1thQIt" value="200" />
     </node>
     <node concept="2tGWwJ" id="3b3L2$kQ$9V" role="2tKvIK">
-      <property role="2tGWwY" value="2" />
-    </node>
-    <node concept="2iWnnH" id="3b3L2$kT7FT" role="2tKvIK">
-      <ref role="2iWon$" node="3b3L2$kT7EA" resolve="a" />
-    </node>
-    <node concept="2tGWwJ" id="3b3L2$kQ$B_" role="2tKvIK">
-      <property role="2tGWwY" value="6" />
-    </node>
-    <node concept="A0j1t" id="3b3L2$kQ_3P" role="2tKvIK">
-      <node concept="3cpWs3" id="3b3L2$kQ_4C" role="A0j4I">
-        <node concept="3cmrfG" id="3b3L2$kQ_5i" role="3uHU7w">
-          <property role="3cmrfH" value="120" />
-        </node>
-        <node concept="3cmrfG" id="3b3L2$kQ_4X" role="3uHU7B">
-          <property role="3cmrfH" value="100" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tGWwJ" id="3b3L2$kQKIp" role="2tKvIK">
       <property role="2tGWwY" value="8" />
+    </node>
+    <node concept="2tGWtp" id="7HXn0S9fLvc" role="2tKvIK">
+      <property role="1thQIt" value="200" />
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
       <property role="TrG5h" value="a" />
