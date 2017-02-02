@@ -29,10 +29,10 @@
   </registry>
   <node concept="2tGWx0" id="6GaoYNQN7we">
     <property role="TrG5h" value="ourTestCLass" />
-    <property role="2iUJH5" value="500" />
-    <property role="2iUJHM" value="500" />
-    <property role="2ZMqCR" value="800" />
-    <property role="2ZMqC2" value="800" />
+    <property role="2iUJH5" value="200" />
+    <property role="2iUJHM" value="200" />
+    <property role="2ZMqCR" value="400" />
+    <property role="2ZMqC2" value="450" />
     <node concept="2tGWtp" id="339Prmf0Mf1" role="2tKvIK">
       <property role="1thQIt" value="120" />
     </node>

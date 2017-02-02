@@ -24,25 +24,31 @@ public class forward_Expression_Editor extends DefaultNodeEditor {
     return this.createCollection_qz8f0d_a(editorContext, node);
   }
   private EditorCell createCollection_qz8f0d_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_qz8f0d_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_qz8f0d_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_qz8f0d_b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_qz8f0d_a0(editorContext, node));
     return editorCell;
   }
-  private EditorCell createConstant_qz8f0d_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Forward add values");
-    editorCell.setCellId("Constant_qz8f0d_a0");
+  private EditorCell createCollection_qz8f0d_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_qz8f0d_a0");
+    editorCell.addEditorCell(this.createConstant_qz8f0d_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_qz8f0d_b0a(editorContext, node));
+    return editorCell;
+  }
+  private EditorCell createConstant_qz8f0d_a0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Forward:");
+    editorCell.setCellId("Constant_qz8f0d_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createRefNode_qz8f0d_b0(EditorContext editorContext, SNode node) {
-    SingleRoleCellProvider provider = new forward_Expression_Editor.added_expressionsSingleRoleHandler_qz8f0d_b0(node, MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, 0x32c3c42914c2f507L, "added_expressions"), editorContext);
+  private EditorCell createRefNode_qz8f0d_b0a(EditorContext editorContext, SNode node) {
+    SingleRoleCellProvider provider = new forward_Expression_Editor.added_expressionsSingleRoleHandler_qz8f0d_b0a(node, MetaAdapterFactory.getContainmentLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, 0x32c3c42914c2f507L, "added_expressions"), editorContext);
     return provider.createCell();
   }
-  private class added_expressionsSingleRoleHandler_qz8f0d_b0 extends SingleRoleCellProvider {
-    public added_expressionsSingleRoleHandler_qz8f0d_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+  private class added_expressionsSingleRoleHandler_qz8f0d_b0a extends SingleRoleCellProvider {
+    public added_expressionsSingleRoleHandler_qz8f0d_b0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(ownerNode, containmentLink, context);
     }
     protected EditorCell createChildCell(SNode child) {

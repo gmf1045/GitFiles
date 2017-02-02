@@ -16,19 +16,15 @@ public class ourTestCLass extends JFrame {
 
   private Integer _currentDirection;
   private Color _color;
-  private int _width = 1200;
-  private int _height = 800;
+  private int _width = 0;
+  private int _height = 0;
 
   private JPanel testpanel = new JPanel() {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(500, 500);
+      Point currPoint = new Point(200, 200);
       _currentDirection = 6;
-      _height = 800;
-      _width = 800;
-
-
 
       currPoint = moveForward(graphics, currPoint, 120);
       turn(2);
@@ -37,14 +33,19 @@ public class ourTestCLass extends JFrame {
       currPoint = moveForward(graphics, currPoint, 200);
       turn(8);
       currPoint = moveForward(graphics, currPoint, 200);
+      graphics.setColor(Color.BLACK);
+      graphics.drawRect(0, 0, ourTestCLass.this._width - 2, ourTestCLass.this._height - 2);
     }
   };
 
   private void initialize() {
+    this._height = 450;
+    this._width = 400;
+
     this.setTitle("ourTestCLass");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(_width, _height));
+    testpanel.setPreferredSize(new Dimension(this._width, this._height));
     this.pack();
     this.setVisible(true);
   }
@@ -78,9 +79,28 @@ public class ourTestCLass extends JFrame {
       _end.y = (int) curPoint.getY();
       _color = Color.BLACK;
     }
-
+    checkBoundary(_end);
     drawLine(grp, curPoint, _end);
     return new Point(_end);
+  }
+
+  public void checkBoundary(Point _endP) {
+
+    if (_endP.getX() < 0) {
+      _endP.x = 5;
+    }
+
+    if (_endP.getX() > this._height) {
+      _endP.x = this._height - 5;
+    }
+
+    if (_endP.getY() > this._width) {
+      _endP.x = this._width - 5;
+    }
+
+    if (_endP.getY() < 0) {
+      _endP.x = 5;
+    }
   }
 
   public void turn(Integer turnType) {

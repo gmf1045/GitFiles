@@ -17,27 +17,26 @@ public class turn_Editor extends DefaultNodeEditor {
     return this.createCollection_vj8b7r_a(editorContext, node);
   }
   private EditorCell createCollection_vj8b7r_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vj8b7r_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_vj8b7r_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_vj8b7r_b0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_vj8b7r_c0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_vj8b7r_a0(editorContext, node));
     return editorCell;
   }
-  private EditorCell createConstant_vj8b7r_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Turn Command:=>");
-    editorCell.setCellId("Constant_vj8b7r_a0");
+  private EditorCell createCollection_vj8b7r_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_vj8b7r_a0");
+    editorCell.addEditorCell(this.createConstant_vj8b7r_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_vj8b7r_b0a(editorContext, node));
+    return editorCell;
+  }
+  private EditorCell createConstant_vj8b7r_a0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Turn:");
+    editorCell.setCellId("Constant_vj8b7r_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_vj8b7r_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Direction:");
-    editorCell.setCellId("Constant_vj8b7r_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createProperty_vj8b7r_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_vj8b7r_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("direction");
     provider.setNoTargetText("<no direction>");

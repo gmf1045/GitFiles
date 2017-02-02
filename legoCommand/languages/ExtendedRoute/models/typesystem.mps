@@ -85,7 +85,7 @@
         <node concept="3clFbS" id="3eCbUDIzace" role="3clFbx">
           <node concept="2MkqsV" id="3eCbUDIzcGY" role="3cqZAp">
             <node concept="Xl_RD" id="3eCbUDIzcHd" role="2MkJ7o">
-              <property role="Xl_RC" value="The value must be greater than 0" />
+              <property role="Xl_RC" value="The value must be greater than or equal 0" />
             </node>
             <node concept="1YBJjd" id="339Prmf4cZH" role="2OEOjV">
               <ref role="1YBMHb" node="339Prmf48DV" resolve="variable" />

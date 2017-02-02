@@ -103,7 +103,7 @@ public class mainCanvas_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_l60nf1_a0b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Berihun & Perkilis");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Berihun & Periklis");
     editorCell.setCellId("Constant_l60nf1_a0b0a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);

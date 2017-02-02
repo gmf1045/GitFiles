@@ -21,7 +21,7 @@ public class checkValue_NonTypesystemRule extends AbstractNonTypesystemRule_Runt
     if (SPropertyOperations.getInteger(variable, MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value")) < 0) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(variable, "The value must be greater than 0", "r:71e15f37-92f9-4221-a02a-d46510555998(ExtendedRoute.typesystem)", "3722277501067381566", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(variable, "The value must be greater than or equal 0", "r:71e15f37-92f9-4221-a02a-d46510555998(ExtendedRoute.typesystem)", "3722277501067381566", null, errorTarget);
       }
     }
   }

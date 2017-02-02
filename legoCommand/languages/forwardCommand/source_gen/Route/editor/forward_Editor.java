@@ -17,27 +17,26 @@ public class forward_Editor extends DefaultNodeEditor {
     return this.createCollection_bm7pr7_a(editorContext, node);
   }
   private EditorCell createCollection_bm7pr7_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_bm7pr7_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_bm7pr7_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_bm7pr7_b0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_bm7pr7_c0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_bm7pr7_a0(editorContext, node));
     return editorCell;
   }
-  private EditorCell createConstant_bm7pr7_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Forward Command:=>");
-    editorCell.setCellId("Constant_bm7pr7_a0");
+  private EditorCell createCollection_bm7pr7_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_bm7pr7_a0");
+    editorCell.addEditorCell(this.createConstant_bm7pr7_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_bm7pr7_b0a(editorContext, node));
+    return editorCell;
+  }
+  private EditorCell createConstant_bm7pr7_a0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Forward:");
+    editorCell.setCellId("Constant_bm7pr7_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_bm7pr7_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Distance:");
-    editorCell.setCellId("Constant_bm7pr7_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createProperty_bm7pr7_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_bm7pr7_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("distance");
     provider.setNoTargetText("<no distance>");

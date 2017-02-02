@@ -93,7 +93,7 @@
           <node concept="3EZMnI" id="339Prmf0M$B" role="3EZMnx">
             <node concept="l2Vlx" id="339Prmf0M$C" role="2iSdaV" />
             <node concept="3F0ifn" id="339Prmf0Mp7" role="3EZMnx">
-              <property role="3F0ifm" value="Berihun &amp; Perkilis" />
+              <property role="3F0ifm" value="Berihun &amp; Periklis" />
               <node concept="Vb9p2" id="339Prmf0Mrz" role="3F10Kt">
                 <property role="Vbekb" value="BOLD" />
               </node>
@@ -210,31 +210,31 @@
   </node>
   <node concept="24kQdi" id="45$iOWs6EEw">
     <ref role="1XX52x" to="boso:6GaoYNQIqiP" resolve="forward" />
-    <node concept="3EZMnI" id="45$iOWs6EFV" role="2wV5jI">
-      <node concept="2iRfu4" id="45$iOWs6EFW" role="2iSdaV" />
-      <node concept="3F0ifn" id="45$iOWs7zAs" role="3EZMnx">
-        <property role="3F0ifm" value="Forward Command:=&gt;" />
-      </node>
-      <node concept="3F0ifn" id="45$iOWs6EHK" role="3EZMnx">
-        <property role="3F0ifm" value="Distance:" />
-      </node>
-      <node concept="3F0A7n" id="45$iOWs6EGT" role="3EZMnx">
-        <ref role="1NtTu8" to="boso:45$iOWs8M3i" resolve="distance" />
+    <node concept="3EZMnI" id="6KZVHQ8UD_B" role="2wV5jI">
+      <node concept="l2Vlx" id="6KZVHQ8UD_C" role="2iSdaV" />
+      <node concept="3EZMnI" id="45$iOWs6EFV" role="3EZMnx">
+        <node concept="2iRfu4" id="45$iOWs6EFW" role="2iSdaV" />
+        <node concept="3F0ifn" id="45$iOWs7zAs" role="3EZMnx">
+          <property role="3F0ifm" value="Forward:" />
+        </node>
+        <node concept="3F0A7n" id="45$iOWs6EGT" role="3EZMnx">
+          <ref role="1NtTu8" to="boso:45$iOWs8M3i" resolve="distance" />
+        </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="45$iOWs6EIV">
     <ref role="1XX52x" to="boso:6GaoYNQIqJ3" resolve="turn" />
-    <node concept="3EZMnI" id="45$iOWs6EKn" role="2wV5jI">
-      <node concept="3F0ifn" id="45$iOWs7z_3" role="3EZMnx">
-        <property role="3F0ifm" value="Turn Command:=&gt;" />
-      </node>
-      <node concept="2iRfu4" id="45$iOWs6EKo" role="2iSdaV" />
-      <node concept="3F0ifn" id="45$iOWs6EMr" role="3EZMnx">
-        <property role="3F0ifm" value="Direction:" />
-      </node>
-      <node concept="3F0A7n" id="45$iOWs6EN1" role="3EZMnx">
-        <ref role="1NtTu8" to="boso:6GaoYNQIqJi" resolve="direction" />
+    <node concept="3EZMnI" id="6KZVHQ8UDBp" role="2wV5jI">
+      <node concept="l2Vlx" id="6KZVHQ8UDBq" role="2iSdaV" />
+      <node concept="3EZMnI" id="45$iOWs6EKn" role="3EZMnx">
+        <node concept="3F0ifn" id="45$iOWs7z_3" role="3EZMnx">
+          <property role="3F0ifm" value="Turn:" />
+        </node>
+        <node concept="2iRfu4" id="45$iOWs6EKo" role="2iSdaV" />
+        <node concept="3F0A7n" id="45$iOWs6EN1" role="3EZMnx">
+          <ref role="1NtTu8" to="boso:6GaoYNQIqJi" resolve="direction" />
+        </node>
       </node>
     </node>
   </node>

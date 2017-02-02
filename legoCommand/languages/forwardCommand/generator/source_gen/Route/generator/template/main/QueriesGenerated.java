@@ -21,6 +21,12 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7340982991508402559(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, "Route.structure.mainCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x65e06922f70a9267L, "startY"));
   }
+  public static Object propertyMacro_GetPropertyValue_7713087181229635824(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, 0x41644b4f1c2320d2L, "distance"));
+  }
+  public static Object propertyMacro_GetPropertyValue_7713087181229698004(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abc3L, "Route.structure.turn")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abc3L, 0x6b0a63ecf6b9abd2L, "direction"));
+  }
   public static Object propertyMacro_GetPropertyValue_3515575959904946904(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, "Route.structure.mainCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x30c9d5b58f007fb7L, "height"));
 
@@ -28,12 +34,6 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3515575959904991701(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, "Route.structure.mainCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x30c9d5b58f007f82L, "width"));
 
-  }
-  public static Object propertyMacro_GetPropertyValue_7713087181229635824(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, "Route.structure.forward")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9a4b5L, 0x41644b4f1c2320d2L, "distance"));
-  }
-  public static Object propertyMacro_GetPropertyValue_7713087181229698004(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abc3L, "Route.structure.turn")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abc3L, 0x6b0a63ecf6b9abd2L, "direction"));
   }
   public static Object propertyMacro_GetPropertyValue_5898776707557736279(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
