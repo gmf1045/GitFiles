@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="boso" ref="r:bfa54b39-db6e-4249-a957-b3010b364f39(Route.structure)" implicit="true" />
   </imports>
@@ -97,6 +98,18 @@
       <property role="20kJfa" value="distance" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="45$iOWsdfdZ" resolve="variable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3b3L2$kKJhO">
+    <property role="EcuMT" value="3657983003075998836" />
+    <property role="TrG5h" value="forward_edited" />
+    <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
+    <node concept="1TJgyj" id="3b3L2$kKJk7" role="1TKVEi">
+      <property role="IQ2ns" value="3657983003075998983" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="added_operators" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

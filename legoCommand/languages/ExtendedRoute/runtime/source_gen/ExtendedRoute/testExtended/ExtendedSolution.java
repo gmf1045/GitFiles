@@ -20,22 +20,24 @@ public class ExtendedSolution extends JFrame {
       super.paintComponent(graphics);
       Point currPoint = new Point(400, 300);
 
-
       _currentDirection = 6;
 
-      currPoint = moveForward(graphics, currPoint, 100);
-      turn(2);
-      currPoint = moveForward(graphics, currPoint, 100);
-      turn(4);
-      currPoint = moveForward(graphics, currPoint, 100);
-      turn(2);
-      currPoint = moveForward(graphics, currPoint, 100);
-      turn(6);
-      currPoint = moveForward(graphics, currPoint, 300);
-      turn(8);
+      int _sum = 0;
+
+
       currPoint = moveForward(graphics, currPoint, 200);
+
+      turn(2);
+
+      currPoint = moveForward(graphics, currPoint, 200);
+
+      turn(6);
+
+      currPoint = moveForward(graphics, currPoint, 100 + 120);
+
       turn(8);
-      currPoint = moveForward(graphics, currPoint, 205);
+
+      currPoint = moveForward(graphics, currPoint, 100);
     }
   };
 
