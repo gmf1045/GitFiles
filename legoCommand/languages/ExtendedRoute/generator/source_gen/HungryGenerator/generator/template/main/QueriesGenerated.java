@@ -33,6 +33,12 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_5898776707557736279(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
+  public static Object propertyMacro_GetPropertyValue_3515575959904329467(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, "ExtendedRoute.structure.extendedCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x30c9d5b58f007f82L, "width"));
+  }
+  public static Object propertyMacro_GetPropertyValue_3515575959904298921(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c3587d9L, "ExtendedRoute.structure.extendedCanvas")), MetaAdapterFactory.getProperty(0xf27d810cbdb444cdL, 0xb6c93a29a5133e07L, 0x6b0a63ecf6b9abacL, 0x30c9d5b58f007fb7L, "height"));
+  }
   public static Object propertyMacro_GetPropertyValue_4711973913284697171(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }

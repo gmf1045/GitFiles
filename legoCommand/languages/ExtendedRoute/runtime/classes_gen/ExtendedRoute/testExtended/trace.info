@@ -20,92 +20,86 @@
       <node id="4711973913284897484" at="22,0,23,0" concept="8" />
       <node id="4711973913284897484" at="23,0,24,28" concept="1" />
       <node id="4711973913284897484" at="24,28,25,0" concept="8" />
-      <node id="4711973913284897484" at="25,0,26,56" concept="1" />
-      <node id="4711973913284897484" at="26,56,27,14" concept="1" />
-      <node id="4711973913284897484" at="27,14,28,56" concept="1" />
-      <node id="4711973913284897484" at="28,56,29,14" concept="1" />
-      <node id="4711973913284897484" at="29,14,30,56" concept="1" />
-      <node id="4711973913284897484" at="30,56,31,56" concept="1" />
-      <node id="4711973913284897484" at="35,29,36,39" concept="1" />
-      <node id="4711973913284897484" at="36,39,37,52" concept="1" />
-      <node id="4711973913284897484" at="37,52,38,24" concept="1" />
-      <node id="4711973913284897484" at="38,24,39,57" concept="1" />
-      <node id="4711973913284897484" at="39,57,40,16" concept="1" />
-      <node id="4711973913284897484" at="40,16,41,26" concept="1" />
-      <node id="4711973913284897484" at="44,42,45,56" concept="5" />
-      <node id="4711973913284897484" at="45,56,46,25" concept="1" />
-      <node id="4711973913284897484" at="46,25,47,0" concept="8" />
-      <node id="4711973913284897484" at="50,76,51,0" concept="8" />
-      <node id="4711973913284897484" at="51,0,52,37" concept="5" />
-      <node id="4711973913284897484" at="53,33,54,15" concept="7" />
-      <node id="4711973913284897484" at="54,15,55,37" concept="1" />
-      <node id="4711973913284897484" at="55,37,56,58" concept="1" />
-      <node id="4711973913284897484" at="56,58,57,25" concept="1" />
-      <node id="4711973913284897484" at="58,40,59,15" concept="7" />
-      <node id="4711973913284897484" at="59,15,60,39" concept="1" />
-      <node id="4711973913284897484" at="60,39,61,48" concept="1" />
-      <node id="4711973913284897484" at="61,48,62,27" concept="1" />
-      <node id="4711973913284897484" at="63,40,64,14" concept="7" />
-      <node id="4711973913284897484" at="64,14,65,50" concept="1" />
-      <node id="4711973913284897484" at="65,50,66,37" concept="1" />
-      <node id="4711973913284897484" at="66,37,67,26" concept="1" />
-      <node id="4711973913284897484" at="68,12,69,14" concept="7" />
-      <node id="4711973913284897484" at="69,14,70,50" concept="1" />
-      <node id="4711973913284897484" at="70,50,71,37" concept="1" />
-      <node id="4711973913284897484" at="71,37,72,27" concept="1" />
-      <node id="4711973913284897484" at="73,5,74,0" concept="8" />
-      <node id="4711973913284897484" at="74,0,75,34" concept="1" />
-      <node id="4711973913284897484" at="75,34,76,27" concept="6" />
-      <node id="4711973913284897484" at="79,38,80,33" concept="1" />
-      <node id="4711973913284897484" at="83,63,84,26" concept="1" />
-      <node id="4711973913284897484" at="84,26,85,94" concept="1" />
-      <node id="4711973913284897484" at="79,0,82,0" concept="4" trace="turn#(Ljava/lang/Integer;)V" />
-      <node id="4711973913284897484" at="83,0,87,0" concept="4" trace="drawLine#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/awt/Point;)V" />
-      <node id="4711973913284897484" at="44,0,49,0" concept="9" trace="main#([Ljava/lang/String;)V" />
-      <node id="4711973913284897484" at="68,10,73,5" concept="0" />
-      <node id="4711973913284897484" at="35,0,43,0" concept="4" trace="initialize#()V" />
-      <node id="4711973913284897484" at="18,0,33,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
-      <node id="4711973913284897484" at="17,0,34,0" concept="2" trace="testpanel" />
-      <node id="4711973913284897484" at="52,37,73,5" concept="3" />
-      <node id="4711973913284897484" at="50,0,78,0" concept="4" trace="moveForward#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/lang/Integer;)Ljava/awt/Point;" />
-      <scope id="4711973913284897484" at="79,38,80,33" />
-      <scope id="4711973913284897484" at="83,63,85,94" />
-      <scope id="4711973913284897484" at="44,42,47,0">
+      <node id="4711973913284897484" at="29,29,30,39" concept="1" />
+      <node id="4711973913284897484" at="30,39,31,52" concept="1" />
+      <node id="4711973913284897484" at="31,52,32,24" concept="1" />
+      <node id="4711973913284897484" at="32,24,33,52" concept="1" />
+      <node id="4711973913284897484" at="33,52,34,16" concept="1" />
+      <node id="4711973913284897484" at="34,16,35,26" concept="1" />
+      <node id="4711973913284897484" at="38,42,39,56" concept="5" />
+      <node id="4711973913284897484" at="39,56,40,25" concept="1" />
+      <node id="4711973913284897484" at="40,25,41,0" concept="8" />
+      <node id="4711973913284897484" at="44,76,45,0" concept="8" />
+      <node id="4711973913284897484" at="45,0,46,37" concept="5" />
+      <node id="4711973913284897484" at="47,33,48,15" concept="7" />
+      <node id="4711973913284897484" at="48,15,49,37" concept="1" />
+      <node id="4711973913284897484" at="49,37,50,58" concept="1" />
+      <node id="4711973913284897484" at="50,58,51,25" concept="1" />
+      <node id="4711973913284897484" at="52,40,53,15" concept="7" />
+      <node id="4711973913284897484" at="53,15,54,39" concept="1" />
+      <node id="4711973913284897484" at="54,39,55,48" concept="1" />
+      <node id="4711973913284897484" at="55,48,56,27" concept="1" />
+      <node id="4711973913284897484" at="57,40,58,14" concept="7" />
+      <node id="4711973913284897484" at="58,14,59,50" concept="1" />
+      <node id="4711973913284897484" at="59,50,60,37" concept="1" />
+      <node id="4711973913284897484" at="60,37,61,26" concept="1" />
+      <node id="4711973913284897484" at="62,12,63,14" concept="7" />
+      <node id="4711973913284897484" at="63,14,64,50" concept="1" />
+      <node id="4711973913284897484" at="64,50,65,37" concept="1" />
+      <node id="4711973913284897484" at="65,37,66,27" concept="1" />
+      <node id="4711973913284897484" at="67,5,68,0" concept="8" />
+      <node id="4711973913284897484" at="68,0,69,34" concept="1" />
+      <node id="4711973913284897484" at="69,34,70,27" concept="6" />
+      <node id="4711973913284897484" at="73,38,74,33" concept="1" />
+      <node id="4711973913284897484" at="77,63,78,26" concept="1" />
+      <node id="4711973913284897484" at="78,26,79,94" concept="1" />
+      <node id="4711973913284897484" at="73,0,76,0" concept="4" trace="turn#(Ljava/lang/Integer;)V" />
+      <node id="4711973913284897484" at="77,0,81,0" concept="4" trace="drawLine#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/awt/Point;)V" />
+      <node id="4711973913284897484" at="38,0,43,0" concept="9" trace="main#([Ljava/lang/String;)V" />
+      <node id="4711973913284897484" at="62,10,67,5" concept="0" />
+      <node id="4711973913284897484" at="29,0,37,0" concept="4" trace="initialize#()V" />
+      <node id="4711973913284897484" at="18,0,27,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="4711973913284897484" at="17,0,28,0" concept="2" trace="testpanel" />
+      <node id="4711973913284897484" at="46,37,67,5" concept="3" />
+      <node id="4711973913284897484" at="44,0,72,0" concept="4" trace="moveForward#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/lang/Integer;)Ljava/awt/Point;" />
+      <scope id="4711973913284897484" at="73,38,74,33" />
+      <scope id="4711973913284897484" at="77,63,79,94" />
+      <scope id="4711973913284897484" at="38,42,41,0">
         <var name="_canvas" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="79,0,82,0">
+      <scope id="4711973913284897484" at="73,0,76,0">
         <var name="turnType" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="53,33,57,25" />
-      <scope id="4711973913284897484" at="58,40,62,27" />
-      <scope id="4711973913284897484" at="63,40,67,26" />
-      <scope id="4711973913284897484" at="68,12,72,27" />
-      <scope id="4711973913284897484" at="83,0,87,0">
+      <scope id="4711973913284897484" at="47,33,51,25" />
+      <scope id="4711973913284897484" at="52,40,56,27" />
+      <scope id="4711973913284897484" at="57,40,61,26" />
+      <scope id="4711973913284897484" at="62,12,66,27" />
+      <scope id="4711973913284897484" at="77,0,81,0">
         <var name="end" id="4711973913284897484" />
         <var name="grp2" id="4711973913284897484" />
         <var name="start" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="44,0,49,0">
+      <scope id="4711973913284897484" at="38,0,43,0">
         <var name="args" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="35,29,41,26" />
-      <scope id="4711973913284897484" at="35,0,43,0" />
-      <scope id="4711973913284897484" at="19,54,31,56">
+      <scope id="4711973913284897484" at="19,54,25,0">
         <var name="currPoint" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="18,0,33,0">
+      <scope id="4711973913284897484" at="29,29,35,26" />
+      <scope id="4711973913284897484" at="29,0,37,0" />
+      <scope id="4711973913284897484" at="18,0,27,0">
         <var name="graphics" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="50,76,76,27">
+      <scope id="4711973913284897484" at="44,76,70,27">
         <var name="_end" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="50,0,78,0">
+      <scope id="4711973913284897484" at="44,0,72,0">
         <var name="curPoint" id="4711973913284897484" />
         <var name="distance" id="4711973913284897484" />
         <var name="grp" id="4711973913284897484" />
       </scope>
-      <unit id="4711973913284897484" at="17,33,33,3" name="ExtendedRoute.testExtended.ExtenddedSolution$1" />
-      <unit id="4711973913284897484" at="12,0,89,0" name="ExtendedRoute.testExtended.ExtenddedSolution" />
+      <unit id="4711973913284897484" at="17,33,27,3" name="ExtendedRoute.testExtended.ExtenddedSolution$1" />
+      <unit id="4711973913284897484" at="12,0,83,0" name="ExtendedRoute.testExtended.ExtenddedSolution" />
     </file>
   </root>
 </debug-info>

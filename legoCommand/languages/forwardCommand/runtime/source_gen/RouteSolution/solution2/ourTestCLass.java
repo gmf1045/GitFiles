@@ -21,18 +21,15 @@ public class ourTestCLass extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(300, 300);
+      Point currPoint = new Point(0, 0);
       _currentDirection = 6;
 
 
-      currPoint = moveForward(graphics, currPoint, 100);
+      currPoint = moveForward(graphics, currPoint, 120);
       turn(6);
-      turn(2);
-      currPoint = moveForward(graphics, currPoint, 150);
+      currPoint = moveForward(graphics, currPoint, 200);
       turn(4);
-      currPoint = moveForward(graphics, currPoint, 200);
-      turn(2);
-      currPoint = moveForward(graphics, currPoint, 200);
+      currPoint = moveForward(graphics, currPoint, 100);
     }
   };
 

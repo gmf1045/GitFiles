@@ -14,8 +14,6 @@
         <property id="7713087181228190674" name="direction" index="2tGWwY" />
       </concept>
       <concept id="7713087181228190636" name="Route.structure.mainCanvas" flags="ng" index="2tGWx0">
-        <property id="7340982991508378215" name="startY" index="2iUJH5" />
-        <property id="7340982991508378192" name="startX" index="2iUJHM" />
         <child id="7713087181229365340" name="lst_commands" index="2tKvIK" />
       </concept>
     </language>
@@ -27,31 +25,20 @@
   </registry>
   <node concept="2tGWx0" id="6GaoYNQN7we">
     <property role="TrG5h" value="ourTestCLass" />
-    <property role="2iUJHM" value="300" />
-    <property role="2iUJH5" value="300" />
-    <node concept="2tGWtp" id="6nwqibR4QeC" role="2tKvIK">
-      <property role="1thQIt" value="100" />
+    <node concept="2tGWtp" id="339Prmf0Mf1" role="2tKvIK">
+      <property role="1thQIt" value="120" />
     </node>
-    <node concept="2tGWwJ" id="6nwqibR4Qf6" role="2tKvIK">
+    <node concept="2tGWwJ" id="339Prmf0VY9" role="2tKvIK">
       <property role="2tGWwY" value="6" />
     </node>
-    <node concept="2tGWwJ" id="5qmfmU$u4Yx" role="2tKvIK">
-      <property role="2tGWwY" value="2" />
+    <node concept="2tGWtp" id="339Prmf0VYv" role="2tKvIK">
+      <property role="1thQIt" value="200" />
     </node>
-    <node concept="2tGWtp" id="6nwqibR4Qfx" role="2tKvIK">
-      <property role="1thQIt" value="150" />
-    </node>
-    <node concept="2tGWwJ" id="6nwqibR4QmM" role="2tKvIK">
+    <node concept="2tGWwJ" id="339Prmf0W0q" role="2tKvIK">
       <property role="2tGWwY" value="4" />
     </node>
-    <node concept="2tGWtp" id="5qmfmU$u2v4" role="2tKvIK">
-      <property role="1thQIt" value="200" />
-    </node>
-    <node concept="2tGWwJ" id="5qmfmU$yFSP" role="2tKvIK">
-      <property role="2tGWwY" value="2" />
-    </node>
-    <node concept="2tGWtp" id="5qmfmU$yFTT" role="2tKvIK">
-      <property role="1thQIt" value="200" />
+    <node concept="2tGWtp" id="339Prmf0VZ5" role="2tKvIK">
+      <property role="1thQIt" value="100" />
     </node>
   </node>
 </model>
