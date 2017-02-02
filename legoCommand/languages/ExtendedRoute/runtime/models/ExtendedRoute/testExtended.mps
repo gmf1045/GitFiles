@@ -42,7 +42,7 @@
     <property role="2iUJH5" value="300" />
     <property role="TrG5h" value="ExtendedSolution" />
     <node concept="2tGWtp" id="6EX0tyoHcRD" role="2tKvIK">
-      <property role="1thQIt" value="2" />
+      <property role="1thQIt" value="200" />
     </node>
     <node concept="2tGWwJ" id="6EX0tyoHcSh" role="2tKvIK">
       <property role="2tGWwY" value="2" />
@@ -55,6 +55,10 @@
       <property role="1tkmMm" value="b" />
       <property role="1tmiS_" value="240" />
     </node>
+    <node concept="1tkbwK" id="6EX0tyoHn6A" role="1tmiPG">
+      <property role="1tkmMm" value="c" />
+      <property role="1tmiS_" value="200" />
+    </node>
     <node concept="2iWnnH" id="5qmfmU$ybGK" role="2tKvIK">
       <ref role="2iWon$" node="5qmfmU$y89R" />
     </node>
@@ -66,6 +70,9 @@
     </node>
     <node concept="2tGWwJ" id="6EX0tyoHdk0" role="2tKvIK">
       <property role="2tGWwY" value="6" />
+    </node>
+    <node concept="2iWnnH" id="6EX0tyoHn79" role="2tKvIK">
+      <ref role="2iWon$" node="6EX0tyoHn6A" />
     </node>
   </node>
 </model>
