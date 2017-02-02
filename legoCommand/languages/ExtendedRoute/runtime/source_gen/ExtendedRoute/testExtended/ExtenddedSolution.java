@@ -9,7 +9,7 @@ import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Dimension;
 
-public class ExtendedSolution extends JFrame {
+public class ExtenddedSolution extends JFrame {
 
   private Integer _currentDirection;
   private Color _color;
@@ -18,7 +18,9 @@ public class ExtendedSolution extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(300, 300);
+      Point currPoint = new Point(400, 300);
+
+
       _currentDirection = 6;
 
       currPoint = moveForward(graphics, currPoint, 200);
@@ -26,11 +28,12 @@ public class ExtendedSolution extends JFrame {
       currPoint = moveForward(graphics, currPoint, 200);
       turn(8);
       currPoint = moveForward(graphics, currPoint, 200);
+      currPoint = moveForward(graphics, currPoint, 300);
     }
   };
 
   private void initialize() {
-    this.setTitle("ExtendedSolution");
+    this.setTitle("ExtenddedSolution");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
     testpanel.setPreferredSize(new Dimension(1200, 900));
@@ -39,7 +42,7 @@ public class ExtendedSolution extends JFrame {
   }
 
   public static void main(String[] args) {
-    ExtendedSolution _canvas = new ExtendedSolution();
+    ExtenddedSolution _canvas = new ExtenddedSolution();
     _canvas.initialize();
 
   }

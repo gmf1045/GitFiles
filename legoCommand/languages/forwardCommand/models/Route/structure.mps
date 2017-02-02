@@ -91,6 +91,16 @@
       <property role="TrG5h" value="startY" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="339Prmf07Y2" role="1TKVEl">
+      <property role="IQ2nx" value="3515575959904354178" />
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="339Prmf07YR" role="1TKVEl">
+      <property role="IQ2nx" value="3515575959904354231" />
+      <property role="TrG5h" value="height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6GaoYNQIqJ3">
     <property role="EcuMT" value="7713087181228190659" />

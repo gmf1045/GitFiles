@@ -39,7 +39,7 @@
   <node concept="1tksMm" id="45$iOWsgeFc">
     <property role="2iUJHM" value="400" />
     <property role="2iUJH5" value="300" />
-    <property role="TrG5h" value="ExtendedSolution" />
+    <property role="TrG5h" value="ExtenddedSolution" />
     <node concept="2tGWtp" id="6EX0tyoHcRD" role="2tKvIK">
       <property role="1thQIt" value="200" />
     </node>
@@ -47,17 +47,24 @@
       <property role="2tGWwY" value="2" />
     </node>
     <node concept="2iWnnH" id="5qmfmU$ybGK" role="2tKvIK">
-      <ref role="2iWon$" node="339PrmeZakX" resolve="a" />
+      <ref role="2iWon$" node="339PrmeZakX" resolve="ax" />
     </node>
     <node concept="2tGWwJ" id="5qmfmU$xzB6" role="2tKvIK">
       <property role="2tGWwY" value="8" />
     </node>
     <node concept="2iWnnH" id="339PrmeZanx" role="2tKvIK">
-      <ref role="2iWon$" node="339PrmeZakX" resolve="a" />
+      <ref role="2iWon$" node="339PrmeZakX" resolve="ax" />
+    </node>
+    <node concept="2iWnnH" id="339PrmeZesG" role="2tKvIK">
+      <ref role="2iWon$" node="339PrmeZerz" resolve="b" />
     </node>
     <node concept="1tkbwK" id="339PrmeZakX" role="1tmiPG">
-      <property role="TrG5h" value="a" />
+      <property role="TrG5h" value="ax" />
       <property role="1tmiS_" value="200" />
+    </node>
+    <node concept="1tkbwK" id="339PrmeZerz" role="1tmiPG">
+      <property role="TrG5h" value="b" />
+      <property role="1tmiS_" value="300" />
     </node>
   </node>
 </model>
