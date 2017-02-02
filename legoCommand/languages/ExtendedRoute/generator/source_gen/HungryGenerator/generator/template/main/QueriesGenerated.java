@@ -44,7 +44,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_3657983003077798858(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914dbdfc4L, 0x32c3c42914dbe6bdL, "distance")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914dbdfc4L, 0x32c3c42914dbe6bdL, "var")), MetaAdapterFactory.getProperty(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x41644b4f1c34f37fL, 0x41644b4f1c3d656aL, "Var_value"));
   }
   public static boolean ifMacro_Condition_3657983003077264092(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), MetaAdapterFactory.getConcept(0x197a3f15e7884d9bL, 0xb6f9860847284fceL, 0x32c3c42914c2f474L, "ExtendedRoute.structure.forward_edited"));

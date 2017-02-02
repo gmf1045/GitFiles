@@ -57,22 +57,14 @@
     <property role="TrG5h" value="ExtendedSolution" />
     <property role="2ZMqCR" value="1200" />
     <property role="2ZMqC2" value="800" />
-    <node concept="1tkbwK" id="339Prmf16N5" role="1tmiPG">
-      <property role="TrG5h" value="a" />
-      <property role="1tmiS_" value="100" />
-    </node>
-    <node concept="1tkbwK" id="339Prmf3Wbx" role="1tmiPG">
-      <property role="TrG5h" value="c" />
-      <property role="1tmiS_" value="200" />
-    </node>
     <node concept="2tGWtp" id="3b3L2$kQ$9_" role="2tKvIK">
       <property role="1thQIt" value="200" />
     </node>
     <node concept="2tGWwJ" id="3b3L2$kQ$9V" role="2tKvIK">
       <property role="2tGWwY" value="2" />
     </node>
-    <node concept="2iWnnH" id="3b3L2$kQ$AS" role="2tKvIK">
-      <ref role="2iWon$" node="339Prmf3Wbx" resolve="c" />
+    <node concept="2iWnnH" id="3b3L2$kT7FT" role="2tKvIK">
+      <ref role="2iWon$" node="3b3L2$kT7EA" resolve="a" />
     </node>
     <node concept="2tGWwJ" id="3b3L2$kQ$B_" role="2tKvIK">
       <property role="2tGWwY" value="6" />
@@ -90,8 +82,13 @@
     <node concept="2tGWwJ" id="3b3L2$kQKIp" role="2tKvIK">
       <property role="2tGWwY" value="8" />
     </node>
-    <node concept="2iWnnH" id="3b3L2$kQKKV" role="2tKvIK">
-      <ref role="2iWon$" node="339Prmf16N5" resolve="a" />
+    <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
+      <property role="TrG5h" value="a" />
+      <property role="1tmiS_" value="120" />
+    </node>
+    <node concept="1tkbwK" id="3b3L2$kT7ER" role="1tmiPG">
+      <property role="TrG5h" value="b" />
+      <property role="1tmiS_" value="200" />
     </node>
   </node>
 </model>
