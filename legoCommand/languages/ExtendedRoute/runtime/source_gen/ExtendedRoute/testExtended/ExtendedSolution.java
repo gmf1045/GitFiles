@@ -33,7 +33,7 @@ public class ExtendedSolution extends JFrame {
       turn(6);
       currPoint = moveForward(graphics, currPoint, 300);
       turn(8);
-      currPoint = moveForward(graphics, currPoint, 100);
+      currPoint = moveForward(graphics, currPoint, 200);
     }
   };
 

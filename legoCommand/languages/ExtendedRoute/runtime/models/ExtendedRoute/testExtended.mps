@@ -48,6 +48,10 @@
       <property role="TrG5h" value="a" />
       <property role="1tmiS_" value="100" />
     </node>
+    <node concept="1tkbwK" id="339Prmf3Wbx" role="1tmiPG">
+      <property role="TrG5h" value="c" />
+      <property role="1tmiS_" value="200" />
+    </node>
     <node concept="2iWnnH" id="339Prmf16N7" role="2tKvIK">
       <ref role="2iWon$" node="339Prmf16N5" resolve="a" />
     </node>
@@ -79,7 +83,7 @@
       <property role="2tGWwY" value="8" />
     </node>
     <node concept="2iWnnH" id="339Prmf2WaP" role="2tKvIK">
-      <ref role="2iWon$" node="339Prmf16N5" resolve="a" />
+      <ref role="2iWon$" node="339Prmf3Wbx" resolve="c" />
     </node>
   </node>
 </model>
