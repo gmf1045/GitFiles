@@ -75,16 +75,15 @@ public class ourTestCLass extends JFrame {
       _color = Color.BLACK;
     }
 
-    justDrawLine(grp, curPoint, _end);
+    drawLine(grp, curPoint, _end);
     return new Point(_end);
   }
 
   public void turn(Integer turnType) {
     _currentDirection = turnType;
-
   }
 
-  public void justDrawLine(Graphics grp2, Point start, Point end) {
+  public void drawLine(Graphics grp2, Point start, Point end) {
     grp2.setColor(_color);
     grp2.drawLine((int) start.getX(), (int) start.getY(), (int) end.getX(), (int) end.getY());
   }
