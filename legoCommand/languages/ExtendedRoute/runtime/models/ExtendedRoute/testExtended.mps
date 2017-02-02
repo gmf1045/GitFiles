@@ -52,7 +52,7 @@
     <property role="2iUJHM" value="400" />
     <property role="2iUJH5" value="400" />
     <property role="TrG5h" value="testRobot_Expression" />
-    <property role="2ZMqCR" value="1200" />
+    <property role="2ZMqCR" value="800" />
     <property role="2ZMqC2" value="800" />
     <node concept="A0j1t" id="6ZCkl8xY51x" role="2tKvIK">
       <node concept="3cpWs3" id="6ZCkl8xY51U" role="A0j4I">

@@ -26,7 +26,7 @@ public class ourTestCLass extends JFrame {
       Point currPoint = new Point(500, 500);
       _currentDirection = 6;
       _height = 800;
-      _width = 1200;
+      _width = 800;
 
 
 

@@ -35,7 +35,7 @@ public class testRobot_Expression extends JFrame {
     this.setTitle("testRobot_Expression");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(1200, 800));
+    testpanel.setPreferredSize(new Dimension(800, 800));
     this.pack();
     this.setVisible(true);
   }
