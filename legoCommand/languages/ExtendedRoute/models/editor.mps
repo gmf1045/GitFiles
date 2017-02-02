@@ -29,7 +29,6 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
-      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -69,9 +68,6 @@
     <node concept="3EZMnI" id="45$iOWsdoAF" role="2wV5jI">
       <node concept="VPXOz" id="339Prmf0PJm" role="3F10Kt">
         <property role="VOm3f" value="true" />
-      </node>
-      <node concept="Veino" id="339Prmf0SRs" role="3F10Kt">
-        <property role="Vb096" value="LIGHT_BLUE" />
       </node>
       <node concept="3EZMnI" id="339Prmf35GA" role="3EZMnx">
         <node concept="2iRfu4" id="339Prmf35GB" role="2iSdaV" />
