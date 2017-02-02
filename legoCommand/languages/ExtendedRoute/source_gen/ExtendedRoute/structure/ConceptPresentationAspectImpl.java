@@ -11,7 +11,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private final ConceptPresentation props_New_Expression = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_extendedCanvas = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_forward_edited = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_forward_Expression = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_forward_reference = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_variable = new ConceptPresentationBuilder().create();
 
@@ -25,7 +25,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case 1:
         return props_extendedCanvas;
       case 2:
-        return props_forward_edited;
+        return props_forward_Expression;
       case 3:
         return props_forward_reference;
       case 4:

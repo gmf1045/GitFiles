@@ -3,7 +3,7 @@
   <dependency className="ExtendedRoute.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="ExtendedRoute.editor.New_Expression_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.extendedCanvas_Editor" />
-    <classNode dependClassName="ExtendedRoute.editor.forward_edited_Editor" />
+    <classNode dependClassName="ExtendedRoute.editor.forward_Expression_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.forward_reference_Editor" />
     <classNode dependClassName="ExtendedRoute.editor.variable_Editor" />
     <classNode dependClassName="java.lang.Integer" />
@@ -34,6 +34,8 @@
   </dependency>
   <dependency className="ExtendedRoute.editor.extendedCanvas_Editor" file="extendedCanvas_Editor.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.Measure" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.Padding" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
@@ -62,7 +64,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="ExtendedRoute.editor.forward_edited_Editor" file="forward_edited_Editor.java">
+  <dependency className="ExtendedRoute.editor.forward_Expression_Editor" file="forward_Expression_Editor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart" />
