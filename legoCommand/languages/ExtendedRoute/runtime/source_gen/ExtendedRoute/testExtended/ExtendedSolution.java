@@ -36,7 +36,7 @@ public class ExtendedSolution extends JFrame {
     this.setTitle("ExtendedSolution");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(800, 800));
+    testpanel.setPreferredSize(new Dimension(1200, 900));
     this.pack();
     this.setVisible(true);
   }

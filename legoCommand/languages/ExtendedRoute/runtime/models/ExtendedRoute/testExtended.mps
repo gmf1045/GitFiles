@@ -38,7 +38,7 @@
     </language>
   </registry>
   <node concept="1tksMm" id="45$iOWsgeFc">
-    <property role="2iUJHM" value="200" />
+    <property role="2iUJHM" value="400" />
     <property role="2iUJH5" value="300" />
     <property role="TrG5h" value="ExtendedSolution" />
     <node concept="2tGWtp" id="6EX0tyoHcRD" role="2tKvIK">
