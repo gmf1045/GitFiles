@@ -6,6 +6,13 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+    </language>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
       <concept id="3657983003075998836" name="ExtendedRoute.structure.forward_Expression" flags="ng" index="A0j1t">
         <child id="3657983003075998983" name="added_expressions" index="A0j4I" />
@@ -43,8 +50,8 @@
   </registry>
   <node concept="1tksMm" id="45$iOWsgeFc">
     <property role="2iUJHM" value="400" />
-    <property role="2iUJH5" value="300" />
-    <property role="TrG5h" value="ExtendedSolution" />
+    <property role="2iUJH5" value="400" />
+    <property role="TrG5h" value="testRobot_Expression" />
     <property role="2ZMqCR" value="1200" />
     <property role="2ZMqC2" value="800" />
     <node concept="2tGWtp" id="3b3L2$kQ$9_" role="2tKvIK">
@@ -56,9 +63,17 @@
     <node concept="2tGWtp" id="7HXn0S9fLvc" role="2tKvIK">
       <property role="1thQIt" value="200" />
     </node>
-    <node concept="A0j1t" id="7HXn0S9gCHM" role="2tKvIK">
-      <node concept="1MfmLP" id="7HXn0S9gCHV" role="A0j4I">
-        <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
+    <node concept="2tGWwJ" id="6ZCkl8xY54n" role="2tKvIK">
+      <property role="2tGWwY" value="4" />
+    </node>
+    <node concept="A0j1t" id="6ZCkl8xY51x" role="2tKvIK">
+      <node concept="3cpWs3" id="6ZCkl8xY51U" role="A0j4I">
+        <node concept="1MfmLP" id="6ZCkl8xY52$" role="3uHU7w">
+          <ref role="1MfmLM" node="3b3L2$kT7ER" resolve="b" />
+        </node>
+        <node concept="1MfmLP" id="6ZCkl8xY52h" role="3uHU7B">
+          <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
+        </node>
       </node>
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">

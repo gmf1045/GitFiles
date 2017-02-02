@@ -89,7 +89,7 @@
     <property role="EcuMT" value="7340982991508806863" />
     <property role="TrG5h" value="forward_reference" />
     <property role="R4oN_" value="Forward extended command for reference variables" />
-    <property role="34LRSv" value="forward_reference" />
+    <property role="34LRSv" value="Forward_By_References" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
     <node concept="1TJgyj" id="6nwqibR4uN6" role="1TKVEi">
@@ -104,6 +104,7 @@
     <property role="EcuMT" value="3657983003075998836" />
     <property role="TrG5h" value="forward_Expression" />
     <property role="R4oN_" value="Forward command for Expressions (a+10) and (10+10)" />
+    <property role="34LRSv" value="Forward_By_Expressions" />
     <ref role="1TJDcQ" to="boso:6GaoYNQMTvN" resolve="command" />
     <node concept="1TJgyj" id="3b3L2$kKJk7" role="1TKVEi">
       <property role="IQ2ns" value="3657983003075998983" />
