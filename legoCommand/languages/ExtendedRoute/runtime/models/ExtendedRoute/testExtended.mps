@@ -64,6 +64,9 @@
     <node concept="2iWnnH" id="6EX0tyoHcAI" role="2tKvIK">
       <ref role="2iWon$" node="6EX0tyoHc_S" />
     </node>
+    <node concept="2tGWwJ" id="6EX0tyoHdk0" role="2tKvIK">
+      <property role="2tGWwY" value="6" />
+    </node>
   </node>
 </model>
 
