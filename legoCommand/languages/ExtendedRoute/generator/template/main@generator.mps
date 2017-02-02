@@ -585,10 +585,10 @@
                 <node concept="1pGfFk" id="57sEyAnlSbi" role="2ShVmc">
                   <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
                   <node concept="3cmrfG" id="57sEyAnlSeU" role="37wK5m">
-                    <property role="3cmrfH" value="600" />
+                    <property role="3cmrfH" value="800" />
                   </node>
                   <node concept="3cmrfG" id="57sEyAnlTqU" role="37wK5m">
-                    <property role="3cmrfH" value="600" />
+                    <property role="3cmrfH" value="800" />
                   </node>
                 </node>
               </node>

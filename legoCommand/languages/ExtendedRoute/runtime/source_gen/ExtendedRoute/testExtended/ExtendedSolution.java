@@ -28,6 +28,7 @@ public class ExtendedSolution extends JFrame {
       currPoint = moveForward(graphics, currPoint, 240);
       turn(6);
       currPoint = moveForward(graphics, currPoint, 200);
+      currPoint = moveForward(graphics, currPoint, 200);
     }
   };
 
@@ -35,7 +36,7 @@ public class ExtendedSolution extends JFrame {
     this.setTitle("ExtendedSolution");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(600, 600));
+    testpanel.setPreferredSize(new Dimension(800, 800));
     this.pack();
     this.setVisible(true);
   }
