@@ -7,7 +7,6 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -22,7 +21,7 @@
         <reference id="7340982991508860102" name="distance" index="2iWon$" />
       </concept>
       <concept id="3657983003075998836" name="ExtendedRoute.structure.forward_edited" flags="ng" index="A0j1t">
-        <child id="3657983003075998983" name="added_operators" index="A0j4I" />
+        <child id="3657983003075998983" name="added_expressions" index="A0j4I" />
       </concept>
       <concept id="4711973913284113279" name="ExtendedRoute.structure.variable" flags="ng" index="1tkbwK">
         <property id="4711973913284666730" name="Var_value" index="1tmiS_" />
@@ -93,12 +92,6 @@
     </node>
     <node concept="2iWnnH" id="3b3L2$kQKKV" role="2tKvIK">
       <ref role="2iWon$" node="339Prmf16N5" resolve="a" />
-    </node>
-    <node concept="A0j1t" id="3b3L2$kSGSv" role="2tKvIK">
-      <node concept="3cpWs3" id="3b3L2$kSGT9" role="A0j4I">
-        <node concept="33vP2n" id="3b3L2$kSGTb" role="3uHU7w" />
-        <node concept="33vP2n" id="3b3L2$kSGTd" role="3uHU7B" />
-      </node>
     </node>
   </node>
 </model>
