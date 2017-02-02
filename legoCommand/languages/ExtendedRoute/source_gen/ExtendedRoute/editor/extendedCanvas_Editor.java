@@ -89,13 +89,13 @@ public class extendedCanvas_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createCollection_m18899_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_m18899_b0");
     editorCell.addEditorCell(this.createCollection_m18899_a1a(editorContext, node));
     return editorCell;
   }
   private EditorCell createCollection_m18899_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_m18899_a1a");
     editorCell.addEditorCell(this.createConstant_m18899_a0b0(editorContext, node));
     return editorCell;
