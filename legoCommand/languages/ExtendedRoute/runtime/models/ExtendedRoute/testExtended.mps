@@ -50,7 +50,7 @@
   </registry>
   <node concept="1tksMm" id="45$iOWsgeFc">
     <property role="2iUJHM" value="400" />
-    <property role="2iUJH5" value="400" />
+    <property role="2iUJH5" value="300" />
     <property role="TrG5h" value="testRobot_Expression" />
     <property role="2ZMqCR" value="800" />
     <property role="2ZMqC2" value="800" />
