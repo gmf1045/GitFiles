@@ -16,20 +16,27 @@ public class ourTestCLass extends JFrame {
 
   private Integer _currentDirection;
   private Color _color;
+  private int _width = 1200;
+  private int _height = 800;
 
   private JPanel testpanel = new JPanel() {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(0, 0);
+      Point currPoint = new Point(500, 500);
       _currentDirection = 6;
+      _height = 800;
+      _width = 1200;
+
 
 
       currPoint = moveForward(graphics, currPoint, 120);
-      turn(6);
+      turn(2);
       currPoint = moveForward(graphics, currPoint, 200);
       turn(4);
-      currPoint = moveForward(graphics, currPoint, 100);
+      currPoint = moveForward(graphics, currPoint, 200);
+      turn(8);
+      currPoint = moveForward(graphics, currPoint, 200);
     }
   };
 
@@ -37,7 +44,7 @@ public class ourTestCLass extends JFrame {
     this.setTitle("ourTestCLass");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     this.add(testpanel);
-    testpanel.setPreferredSize(new Dimension(600, 600));
+    testpanel.setPreferredSize(new Dimension(_width, _height));
     this.pack();
     this.setVisible(true);
   }

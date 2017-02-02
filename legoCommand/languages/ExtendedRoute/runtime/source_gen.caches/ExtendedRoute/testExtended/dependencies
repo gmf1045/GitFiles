@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="ExtendedRoute.testExtended.ExtenddedSolution" file="ExtenddedSolution.java">
+  <dependency className="ExtendedRoute.testExtended.ExtendedSolution" file="ExtendedSolution.java">
     <classNode dependClassName="java.awt.Color" />
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Graphics" />
