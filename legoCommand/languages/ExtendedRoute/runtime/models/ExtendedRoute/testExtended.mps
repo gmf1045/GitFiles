@@ -14,6 +14,9 @@
       </concept>
     </language>
     <language id="197a3f15-e788-4d9b-b6f9-860847284fce" name="ExtendedRoute">
+      <concept id="7340982991508806863" name="ExtendedRoute.structure.forward_reference" flags="ng" index="2iWnnH">
+        <reference id="7340982991508860102" name="distance" index="2iWon$" />
+      </concept>
       <concept id="3657983003075998836" name="ExtendedRoute.structure.forward_Expression" flags="ng" index="A0j1t">
         <child id="3657983003075998983" name="added_expressions" index="A0j4I" />
       </concept>
@@ -68,6 +71,15 @@
       <node concept="1MfmLP" id="6ZCkl8xYZMS" role="A0j4I">
         <ref role="1MfmLM" node="3b3L2$kT7EA" resolve="a" />
       </node>
+    </node>
+    <node concept="2tGWwJ" id="19w870EFpsb" role="2tKvIK">
+      <property role="2tGWwY" value="4" />
+    </node>
+    <node concept="2iWnnH" id="19w870EFpsv" role="2tKvIK">
+      <ref role="2iWon$" node="3b3L2$kT7ER" resolve="b" />
+    </node>
+    <node concept="2tGWwJ" id="19w870EFrDA" role="2tKvIK">
+      <property role="2tGWwY" value="6" />
     </node>
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
       <property role="TrG5h" value="a" />
