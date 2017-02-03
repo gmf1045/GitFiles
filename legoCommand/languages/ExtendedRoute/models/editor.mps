@@ -34,7 +34,6 @@
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
-      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
@@ -73,11 +72,8 @@
     <node concept="3EZMnI" id="3b3L2$kTwFi" role="2wV5jI">
       <node concept="l2Vlx" id="3b3L2$kTwFj" role="2iSdaV" />
       <node concept="3EZMnI" id="45$iOWsdoAF" role="3EZMnx">
-        <node concept="VPXOz" id="339Prmf0PJm" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
         <node concept="27yT$n" id="3b3L2$kTwNQ" role="3F10Kt">
-          <property role="3$6WeP" value="5" />
+          <property role="3$6WeP" value="15" />
         </node>
         <node concept="3EZMnI" id="339Prmf35GA" role="3EZMnx">
           <node concept="2iRfu4" id="339Prmf35GB" role="2iSdaV" />

@@ -10,6 +10,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.editor.runtime.style.Padding;
+import jetbrains.mps.editor.runtime.style.Measure;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
@@ -45,7 +47,7 @@ public class mainCanvas_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_l60nf1_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.DRAW_BORDER, 0, true);
+    style.set(StyleAttributes.PADDING_TOP, 0, new Padding(15, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createCollection_l60nf1_a0a(editorContext, node));
     editorCell.addEditorCell(this.createCollection_l60nf1_b0a(editorContext, node));

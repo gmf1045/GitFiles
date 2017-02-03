@@ -47,8 +47,7 @@ public class extendedCanvas_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_m18899_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.DRAW_BORDER, 0, true);
-    style.set(StyleAttributes.PADDING_TOP, 0, new Padding(5, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_TOP, 0, new Padding(15, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createCollection_m18899_a0a(editorContext, node));
     editorCell.addEditorCell(this.createCollection_m18899_b0a(editorContext, node));
