@@ -21,24 +21,20 @@ public class testRobot_Expression extends JFrame {
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
       Point currPoint = new Point(300, 300);
-
       _currentDirection = 6;
 
-
-      currPoint = moveForward(graphics, currPoint, 300);
+      currPoint = moveForward(graphics, currPoint, 360);
       turn(2);
       currPoint = moveForward(graphics, currPoint, 200);
       turn(4);
       currPoint = moveForward(graphics, currPoint, 200);
 
-      graphics.setColor(Color.BLACK);
-      graphics.drawRect(0, 0, testRobot_Expression.this._width - 2, testRobot_Expression.this._height - 2);
     }
   };
 
   private void initialize() {
     this._height = 600;
-    this._width = 600;
+    this._width = 500;
 
     this.setTitle("testRobot_Expression");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -81,6 +77,7 @@ public class testRobot_Expression extends JFrame {
     checkBoundary(_end);
     drawLine(grp, curPoint, _end);
     return new Point(_end);
+
   }
 
   public void checkBoundary(Point _endP) {

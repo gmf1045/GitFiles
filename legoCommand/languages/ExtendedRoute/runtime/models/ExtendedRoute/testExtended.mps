@@ -39,7 +39,7 @@
     <property role="2iUJHM" value="300" />
     <property role="2iUJH5" value="300" />
     <property role="TrG5h" value="testRobot_Expression" />
-    <property role="2ZMqCR" value="600" />
+    <property role="2ZMqCR" value="500" />
     <property role="2ZMqC2" value="600" />
     <node concept="1tkbwK" id="3b3L2$kT7EA" role="1tmiPG">
       <property role="TrG5h" value="a" />
@@ -50,7 +50,7 @@
       <property role="1tmiS_" value="200" />
     </node>
     <node concept="2tGWtp" id="6KZVHQ8X9nA" role="2tKvIK">
-      <property role="1thQIt" value="300" />
+      <property role="1thQIt" value="360" />
     </node>
     <node concept="2tGWwJ" id="6KZVHQ8X9o7" role="2tKvIK">
       <property role="2tGWwY" value="2" />

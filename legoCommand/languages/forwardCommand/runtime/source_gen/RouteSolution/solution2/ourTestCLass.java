@@ -33,8 +33,6 @@ public class ourTestCLass extends JFrame {
       currPoint = moveForward(graphics, currPoint, 200);
       turn(8);
       currPoint = moveForward(graphics, currPoint, 200);
-      graphics.setColor(Color.BLACK);
-      graphics.drawRect(0, 0, ourTestCLass.this._width - 2, ourTestCLass.this._height - 2);
     }
   };
 
