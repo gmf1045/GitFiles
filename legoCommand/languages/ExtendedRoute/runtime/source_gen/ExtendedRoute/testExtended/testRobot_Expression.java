@@ -20,15 +20,15 @@ public class testRobot_Expression extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(250, 200);
+      Point currPoint = new Point(300, 300);
 
       _currentDirection = 6;
 
 
       currPoint = moveForward(graphics, currPoint, 300);
-      turn(4);
-      currPoint = moveForward(graphics, currPoint, 200);
       turn(2);
+      currPoint = moveForward(graphics, currPoint, 200);
+      turn(4);
       currPoint = moveForward(graphics, currPoint, 200);
 
       graphics.setColor(Color.BLACK);
@@ -37,7 +37,7 @@ public class testRobot_Expression extends JFrame {
   };
 
   private void initialize() {
-    this._height = 400;
+    this._height = 600;
     this._width = 600;
 
     this.setTitle("testRobot_Expression");
@@ -86,22 +86,21 @@ public class testRobot_Expression extends JFrame {
   public void checkBoundary(Point _endP) {
 
     if (_endP.getX() < 0) {
-      _endP.x = 5;
+      _endP.x = 0;
     }
 
     if (_endP.getX() > this._height) {
-      _endP.x = this._height - 5;
+      _endP.x = this._height;
     }
 
     if (_endP.getY() > this._width) {
-      _endP.x = this._width - 5;
+      _endP.x = this._width;
     }
 
     if (_endP.getY() < 0) {
-      _endP.x = 5;
+      _endP.x = 0;
     }
   }
-
 
   public void turn(Integer turnType) {
     _currentDirection = turnType;

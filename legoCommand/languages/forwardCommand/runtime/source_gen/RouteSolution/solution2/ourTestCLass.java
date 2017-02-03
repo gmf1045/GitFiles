@@ -23,7 +23,7 @@ public class ourTestCLass extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(200, 200);
+      Point currPoint = new Point(100, 100);
       _currentDirection = 6;
 
       currPoint = moveForward(graphics, currPoint, 120);
@@ -39,8 +39,8 @@ public class ourTestCLass extends JFrame {
   };
 
   private void initialize() {
-    this._height = 450;
-    this._width = 400;
+    this._height = 600;
+    this._width = 600;
 
     this.setTitle("ourTestCLass");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -87,19 +87,19 @@ public class ourTestCLass extends JFrame {
   public void checkBoundary(Point _endP) {
 
     if (_endP.getX() < 0) {
-      _endP.x = 5;
+      _endP.x = 0;
     }
 
     if (_endP.getX() > this._height) {
-      _endP.x = this._height - 5;
+      _endP.x = this._height;
     }
 
     if (_endP.getY() > this._width) {
-      _endP.x = this._width - 5;
+      _endP.x = this._width;
     }
 
     if (_endP.getY() < 0) {
-      _endP.x = 5;
+      _endP.x = 0;
     }
   }
 

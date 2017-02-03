@@ -66,20 +66,20 @@
       <node id="4711973913284897484" at="86,42,87,0" concept="8" />
       <node id="4711973913284897484" at="88,27,89,18" concept="1" />
       <node id="4711973913284897484" at="90,5,91,0" concept="8" />
-      <node id="4711973913284897484" at="92,38,93,33" concept="1" />
+      <node id="4711973913284897484" at="92,38,93,29" concept="1" />
       <node id="4711973913284897484" at="94,5,95,0" concept="8" />
-      <node id="4711973913284897484" at="96,37,97,32" concept="1" />
+      <node id="4711973913284897484" at="96,37,97,28" concept="1" />
       <node id="4711973913284897484" at="98,5,99,0" concept="8" />
       <node id="4711973913284897484" at="100,27,101,18" concept="1" />
-      <node id="4711973913284897484" at="106,38,107,33" concept="1" />
-      <node id="4711973913284897484" at="110,63,111,26" concept="1" />
-      <node id="4711973913284897484" at="111,26,112,94" concept="1" />
+      <node id="4711973913284897484" at="105,38,106,33" concept="1" />
+      <node id="4711973913284897484" at="109,63,110,26" concept="1" />
+      <node id="4711973913284897484" at="110,26,111,94" concept="1" />
       <node id="4711973913284897484" at="87,0,90,5" concept="3" />
       <node id="4711973913284897484" at="91,0,94,5" concept="3" />
       <node id="4711973913284897484" at="95,0,98,5" concept="3" />
       <node id="4711973913284897484" at="99,0,102,5" concept="3" />
-      <node id="4711973913284897484" at="106,0,109,0" concept="4" trace="turn#(Ljava/lang/Integer;)V" />
-      <node id="4711973913284897484" at="110,0,114,0" concept="4" trace="drawLine#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/awt/Point;)V" />
+      <node id="4711973913284897484" at="105,0,108,0" concept="4" trace="turn#(Ljava/lang/Integer;)V" />
+      <node id="4711973913284897484" at="109,0,113,0" concept="4" trace="drawLine#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/awt/Point;)V" />
       <node id="4711973913284897484" at="51,0,56,0" concept="9" trace="main#([Ljava/lang/String;)V" />
       <node id="4711973913284897484" at="75,10,80,5" concept="0" />
       <node id="4711973913284897484" at="39,0,50,0" concept="4" trace="initialize#()V" />
@@ -89,22 +89,22 @@
       <node id="4711973913284897484" at="59,37,80,5" concept="3" />
       <node id="4711973913284897484" at="57,0,85,0" concept="4" trace="moveForward#(Ljava/awt/Graphics;Ljava/awt/Point;Ljava/lang/Integer;)Ljava/awt/Point;" />
       <scope id="4711973913284897484" at="88,27,89,18" />
-      <scope id="4711973913284897484" at="92,38,93,33" />
-      <scope id="4711973913284897484" at="96,37,97,32" />
+      <scope id="4711973913284897484" at="92,38,93,29" />
+      <scope id="4711973913284897484" at="96,37,97,28" />
       <scope id="4711973913284897484" at="100,27,101,18" />
-      <scope id="4711973913284897484" at="106,38,107,33" />
-      <scope id="4711973913284897484" at="110,63,112,94" />
+      <scope id="4711973913284897484" at="105,38,106,33" />
+      <scope id="4711973913284897484" at="109,63,111,94" />
       <scope id="4711973913284897484" at="51,42,54,0">
         <var name="_canvas" id="4711973913284897484" />
       </scope>
-      <scope id="4711973913284897484" at="106,0,109,0">
+      <scope id="4711973913284897484" at="105,0,108,0">
         <var name="turnType" id="4711973913284897484" />
       </scope>
       <scope id="4711973913284897484" at="60,33,64,25" />
       <scope id="4711973913284897484" at="65,40,69,27" />
       <scope id="4711973913284897484" at="70,40,74,26" />
       <scope id="4711973913284897484" at="75,12,79,27" />
-      <scope id="4711973913284897484" at="110,0,114,0">
+      <scope id="4711973913284897484" at="109,0,113,0">
         <var name="end" id="4711973913284897484" />
         <var name="grp2" id="4711973913284897484" />
         <var name="start" id="4711973913284897484" />
@@ -133,7 +133,7 @@
         <var name="grp" id="4711973913284897484" />
       </scope>
       <unit id="4711973913284897484" at="19,33,37,3" name="ExtendedRoute.testExtended.testRobot_Expression$1" />
-      <unit id="4711973913284897484" at="12,0,116,0" name="ExtendedRoute.testExtended.testRobot_Expression" />
+      <unit id="4711973913284897484" at="12,0,115,0" name="ExtendedRoute.testExtended.testRobot_Expression" />
     </file>
   </root>
 </debug-info>
