@@ -29,8 +29,8 @@
   </registry>
   <node concept="2tGWx0" id="6GaoYNQN7we">
     <property role="TrG5h" value="ourTestCLass" />
-    <property role="2iUJH5" value="100" />
-    <property role="2iUJHM" value="100" />
+    <property role="2iUJH5" value="200" />
+    <property role="2iUJHM" value="300" />
     <property role="2ZMqCR" value="600" />
     <property role="2ZMqC2" value="600" />
     <node concept="2tGWtp" id="339Prmf0Mf1" role="2tKvIK">
@@ -53,6 +53,12 @@
     </node>
     <node concept="2tGWtp" id="339Prmf1kQb" role="2tKvIK">
       <property role="1thQIt" value="200" />
+    </node>
+    <node concept="2tGWwJ" id="7vZvKdYeI_Y" role="2tKvIK">
+      <property role="2tGWwY" value="6" />
+    </node>
+    <node concept="2tGWtp" id="7vZvKdYeIAp" role="2tKvIK">
+      <property role="1thQIt" value="50" />
     </node>
   </node>
 </model>

@@ -23,7 +23,7 @@ public class ourTestCLass extends JFrame {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      Point currPoint = new Point(100, 100);
+      Point currPoint = new Point(300, 200);
       _currentDirection = 6;
 
       currPoint = moveForward(graphics, currPoint, 120);
@@ -33,6 +33,8 @@ public class ourTestCLass extends JFrame {
       currPoint = moveForward(graphics, currPoint, 200);
       turn(8);
       currPoint = moveForward(graphics, currPoint, 200);
+      turn(6);
+      currPoint = moveForward(graphics, currPoint, 50);
     }
   };
 

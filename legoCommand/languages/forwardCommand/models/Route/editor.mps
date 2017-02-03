@@ -66,18 +66,6 @@
       <node concept="3EZMnI" id="6GaoYNQNfke" role="3EZMnx">
         <node concept="3EZMnI" id="339Prmf0J9m" role="3EZMnx">
           <node concept="2iRfu4" id="339Prmf0J9n" role="2iSdaV" />
-          <node concept="3F0ifn" id="339Prmf0Mle" role="3EZMnx">
-            <property role="3F0ifm" value="OOTI-2016 " />
-            <node concept="Vb9p2" id="339Prmf0MlB" role="3F10Kt">
-              <property role="Vbekb" value="BOLD" />
-            </node>
-            <node concept="VSNWy" id="339Prmf0MlC" role="3F10Kt">
-              <property role="1lJzqX" value="22" />
-            </node>
-            <node concept="VechU" id="339Prmf0MlD" role="3F10Kt">
-              <property role="Vb096" value="darkGray" />
-            </node>
-          </node>
           <node concept="3F0ifn" id="339Prmf0IYn" role="3EZMnx">
             <property role="3F0ifm" value="Route Lego sample project" />
             <node concept="Vb9p2" id="339Prmf0J4d" role="3F10Kt">
@@ -88,24 +76,6 @@
             </node>
             <node concept="VechU" id="339Prmf0J4f" role="3F10Kt">
               <property role="Vb096" value="darkGray" />
-            </node>
-          </node>
-        </node>
-        <node concept="3EZMnI" id="339Prmf0MyX" role="3EZMnx">
-          <node concept="2iRfu4" id="339Prmf0MyY" role="2iSdaV" />
-          <node concept="3EZMnI" id="339Prmf0M$B" role="3EZMnx">
-            <node concept="l2Vlx" id="339Prmf0M$C" role="2iSdaV" />
-            <node concept="3F0ifn" id="339Prmf0Mp7" role="3EZMnx">
-              <property role="3F0ifm" value="Berihun &amp; Periklis" />
-              <node concept="Vb9p2" id="339Prmf0Mrz" role="3F10Kt">
-                <property role="Vbekb" value="BOLD" />
-              </node>
-              <node concept="VSNWy" id="339Prmf0Mr$" role="3F10Kt">
-                <property role="1lJzqX" value="14" />
-              </node>
-              <node concept="VechU" id="339Prmf0Mr_" role="3F10Kt">
-                <property role="Vb096" value="darkGray" />
-              </node>
             </node>
           </node>
         </node>

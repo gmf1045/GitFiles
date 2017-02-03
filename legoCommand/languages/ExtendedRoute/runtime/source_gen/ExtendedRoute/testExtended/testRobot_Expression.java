@@ -23,18 +23,22 @@ public class testRobot_Expression extends JFrame {
       Point currPoint = new Point(300, 300);
       _currentDirection = 6;
 
-      currPoint = moveForward(graphics, currPoint, 360);
+      currPoint = moveForward(graphics, currPoint, 50);
       turn(2);
-      currPoint = moveForward(graphics, currPoint, 200);
+      currPoint = moveForward(graphics, currPoint, 100);
       turn(4);
-      currPoint = moveForward(graphics, currPoint, 200);
+      currPoint = moveForward(graphics, currPoint, 150 + 50);
+      turn(8);
+      currPoint = moveForward(graphics, currPoint, 100 + 150);
+      turn(6);
+      currPoint = moveForward(graphics, currPoint, 10 + 40);
 
     }
   };
 
   private void initialize() {
     this._height = 600;
-    this._width = 500;
+    this._width = 600;
 
     this.setTitle("testRobot_Expression");
     this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
